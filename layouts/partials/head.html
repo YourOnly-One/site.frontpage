@@ -1,0 +1,84 @@
+<head>
+  <!-- BGN: YourOnly.One Head-01-Top -->
+    {{- if templates.Exists "partials/youronly.one-head-01-top.html" -}}
+      {{ partial "youronly.one-head-01-top.html" . }}
+    {{- end }}
+  <!-- END: YourOnly.One Head-01-Top -->
+
+  <!-- BGN: All sitemap and feed links -->
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap.index.xml" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-multilang.xml" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-general.xml" />
+
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ko/feed.xml" hreflang="ko" />
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ja/feed.xml" hreflang="ja" />
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/feed.xml" hreflang="en-PH" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ko/sitemap.xml" hreflang="ko" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ja/sitemap.xml" hreflang="ja" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/sitemap.xml" hreflang="en-PH" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ko/index.json" hreflang="ko" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ja/index.json" hreflang="ja" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/index.json" hreflang="en-PH" />
+
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ko/feed.xml" hreflang="ko" />
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ja/feed.xml" hreflang="ja" />
+    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/feed.xml" hreflang="en-PH" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ko/sitemap.xml" hreflang="ko" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ja/sitemap.xml" hreflang="ja" />
+    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/sitemap.xml" hreflang="en-PH" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ko/index.json" hreflang="ko" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ja/index.json" hreflang="ja" />
+    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/index.json" hreflang="en-PH" />
+  <!-- END: All sitemap and feed links -->
+
+  <!-- BGN: Return to main page -->
+    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ .Site.BaseURL }}'" />{{ end }}
+  <!-- END: Return to main page -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if .Site.Params.Author }}
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  {{ end }}
+  {{ if .Site.Params.Description }}
+  <meta
+    name="description"
+    content="{{ .Site.Params.Description }}"
+  />
+  {{ end }}
+  <title>{{ .Site.Title }}</title>
+
+  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
+
+  {{ if .Site.IsServer }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+  {{ else }}
+    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+  {{ end }}
+
+  <style>
+    @font-face {
+      font-family: "Bree Serif";
+      src: url("./BreeSerif-Regular.ttf") format("truetype");
+    }
+    .font-bree {
+      font-family: "Bree Serif", serif;
+    }
+    .hide {
+      display: none;
+    }
+    .active {
+      background-color: #4299e1;
+      color: white;
+    }
+    .active:hover {
+      color: white;
+    }
+  </style>
+
+  <!-- BGN: YourOnly.One Head-02-Bottom -->
+    {{- if templates.Exists "partials/youronly.one-head-02-btm.html" -}}
+      {{ partial "youronly.one-head-02-btm.html" . }}
+    {{- end }}
+  <!-- END: YourOnly.One Head-02-Bottom -->
+</head>

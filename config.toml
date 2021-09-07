@@ -1,0 +1,653 @@
+####### Base Config #######
+	baseURL = "https://im.YourOnly.One"
+	title = "I'M YourOnly.One"
+	copyright = ""																					# we are using our own footer
+	timeZone = "Asia/Manila"
+
+
+####### Site settings #######
+	#footnoteAnchorPrefix = ""															# prefix for footnote anchors
+	footnoteReturnLinkContents = "↩"												# text to display for footnote return links
+	paginate = 1000
+	#paginatePath = "page"																	# https://example.com/page/2
+	rssLimit = 100
+	summaryLength = 70
+
+	#### Other settings ####
+		#disqusShortname = ""
+    #googleAnalytics = ""                     # .Site.GoogleAnalytics
+
+
+####### Backend settings #######
+	canonifyURLs = true																			# true for our use-case
+	#disableAliases = true																	# use this if we want to use server redirects
+	enableEmoji = true																			# format :smile:
+	enableGitInfo = false																		# it is in Git time
+	enableInlineShortcodes = false													# disabled for security reasons as per Hugo documentation
+	enableRobotsTXT = false																	# Hugo robots.txt template
+	relativeURLs = false																		# false for our use-case; make all relative URLs relative to content root
+	refLinksNotFoundURL = "https://YourOnly.One"
+
+	## Dev settings ##
+		publishDir = "../../live/public"
+		enableMissingTranslationPlaceholders = true
+
+	## Other settings ##
+		PygmentsCodeFences = true
+		PygmentsStyle = "monokai"
+		disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS"]
+
+#### LANG stuff ####
+	defaultContentLanguage = "en-ph"
+	#defaultContentLanguage = "tl-tglg"
+	defaultContentLanguageInSubdir = false									# false -- homepage is using HTML redirect which is blocked by some browsers
+	hasCJKLanguage = true
+	languageCode = "en-ph"
+
+	## Theme settings ##
+		pluralizeListTitles = false
+	## Theme settings ##
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[author]
+	name = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)"
+	homepage = "https://YourOnly.One"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[build]
+	useResourceCacheWhen = "fallback"
+	writeStats = false
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[caches]
+  [caches.assets]
+  dir = ":resourceDir/_gen"
+  maxAge = "1h"
+
+  [caches.getcsv]
+  dir = ":cacheDir/:project"
+  maxAge = "1h"
+
+  [caches.getjson]
+  dir = ":cacheDir/:project"
+  maxAge = "1h"
+
+  [caches.images]
+  dir = ":resourceDir/_gen"
+  maxAge = "1h"
+
+  [caches.modules]
+  dir = ":cacheDir/modules"
+  maxAge = "1h"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[frontmatter]
+	date = ["date", "publishDate"]
+	expiryDate = ["expiryDate"]
+	lastmod = ["lastmod", "date", "publishDate"]	# do not use :fileModTime and :default (default includes git date)
+	publishDate = ["publishDate", "date"]
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[imaging]
+	resampleFilter = "box"
+	quality = 100	# JPEG and WebP quality setting. Default is 75.
+	#hint = "photo" # picture; photo; drawing; icon; text
+	anchor = "smart" # for cropping; center, topleft, top, topright, right, bottomright, bottom, bottomleft, left
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+# Info: https://gohugo.io/content-management/multilingual/#configure-languages
+[languages]
+	#[languages.en]
+		#contentDir = "content/en"
+		#languageName = "English"
+		#languageFlag = "🇬🇧"
+		#languageCodeHTML = "en"
+		#languageCodeCountry = "DO_NOT_USE"
+		#timeZone = "Etc/UTC"
+		#weight = 110
+		#[languages.en.params]
+		#[[languages.en.menu.main]]
+			#identifier = "about"
+			#name = "About"
+			#url = "/about/"
+		#[[languages.en.menu.main]]
+			#identifier = "posts"
+			#name = "Posts"
+			#url = "/posts/"
+
+	[languages.en-ph]
+		#contentDir = "content/eng-ph"
+		languageName = "English Philippines"
+		languageFlag = "🇵🇭"
+		languageCodeHTML = "en-PH"
+		languageCodeCountry = "ph"
+		timeZone = "Asia/Manila"
+		weight = 111
+		#[languages.en-ph.params]
+		#[[languages.en-ph.menu.main]]
+			#name              = "Home"
+			#identifier        = "home"
+			#url               = "/"
+			#pre               = "<i class='fa fa-home'></i>"
+			#weight            = 1
+
+	#[languages.fil]
+		#contentDir = "content/filipino"
+		#languageName = "Filipino"
+		#languageFlag = "🇵🇭"
+		#languageCodeHTML = "fil"
+		#languageCodeCountry = "ph"
+		#timeZone = "Asia/Manila"
+		#title = "Yelosan Publishing"
+		#subtitle  = "Mabuhay!"
+		#weight = 120
+		#[languages.fil.params]
+			#homeSubtitle = "Mabuhay!"
+			#[languages.fil.params.logo]
+				#logoText = "Filipino"
+			#[languages.fil.params.copyleft]
+				#ContentOn = "Ang nilalaman ng"
+				#SiteTitle = "Yelosan Publishing"
+				#UnlessOtherwise = ", maliban kung may ibang nakasaad."
+		#[[languages.fil.menu.main]]
+			#identifier = "about"
+			#name = "Tungkol"
+			#url = "/tungkol/"
+		#[[languages.fil.menu.main]]
+			#identifier = "posts"
+			#name = "Mga Post"
+			#url = "/mga-post/"
+
+	#[languages.tl-tglg]
+		#contentDir = "content/tagalog.baybayin"
+		#languageName = "Tagalog Baybayin"
+		#languageFlag = "🇵🇭"
+		#languageCodeHTML = "tl-Tglg"
+		#languageCodeCountry = "ph"
+		#timeZone = "Asia/Manila"
+		#title = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
+		#subtitle  = "ᜋᜊᜓᜑᜌ᜔᜶"
+		#weight = 121
+		#[languages.tl-tglg.params]
+			#author = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
+			#homeSubtitle = "ᜋᜊᜓᜑᜌ᜔᜶"
+			#[languages.tl-tglg.params.logo]
+				#logoText = "ᜊᜌᜊᜌᜒᜈ᜔ ᜆᜄᜎᜓᜄ᜔"
+			#[languages.tl-tglg.params.copyleft]
+				#ContentOn = "ᜀᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜔ ᜈᜅ᜔"
+				#SiteTitle = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
+				#UnlessOtherwise = "᜵ ᜋᜎᜒᜊᜈ᜔ ᜃᜓᜅ᜔ ᜋᜌ᜔ ᜁᜊᜅ᜔ ᜈᜃᜐᜀᜇ᜔᜶"
+			#[languages.tl-tglg.params.name]
+				#yahuhanan = "ᜌᜑᜓᜑᜈᜈ᜔"
+				#yukia = "ᜌᜓᜃᜒᜀ"
+				#sese = "ᜐᜒᜐᜒ"
+				#cuneta = "ᜃᜓᜈᜒᜆ"
+		#[languages.tl-tglg.author]
+			#name = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
+		#[[languages.tl-tglg.menu.main]]
+			#identifier = "about"
+			#name = "ᜆᜓᜅ᜔ᜃᜓᜎ᜔"
+			#url = "/ᜆᜓᜅ᜔ᜃᜓᜎ᜔/"
+		#[[languages.tl-tglg.menu.main]]
+			#identifier = "posts"
+			#name = "ᜋᜅ Post"
+			#url = "/ᜋᜅ-post/"
+
+	#[languages.zh-hant]
+		#contentDir = "content/zhongwen.traditional"
+		#languageName = "中文（繁體）"
+		#languageFlag = "🇨🇳"
+		#languageCodeHTML = "zh-Hant"
+		#languageCodeCountry = "cn"
+		#timeZone = "Asia/Shanghai"
+		#weight = 130
+
+	#[languages.zh-hans]
+		#contentDir = "content/zhongwen.simplified"
+		#languageName = "中文（简体）"
+		#languageFlag = "🇨🇳"
+		#languageCodeHTML = "zh-Hans"
+		#languageCodeCountry = "cn"
+		#timeZone = "Asia/Shanghai"
+		#weight = 131
+
+	#[languages.ja]
+		#contentDir = "content/nihongo"
+		#languageName = "日本語"
+		#languageFlag = "🇯🇵"
+		#languageCodeHTML = "ja"
+		#languageCodeCountry = "jp"
+		#timeZone = "Asia/Tokyo"
+		#weight = 140
+		#[languages.ja.params]
+			#description = "Yahuhanan Yukia Sese Cunetaの年代記 / ᜌᜓᜃᜒ (Yuki ・ 雪亮)."			# IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+			#motto = "これが忘却の終わりではないなら、私は自分の人生がまさにこの日に終わるかのように毎日生きるでしょう。"
+		#[[languages.ja.menu.main]]
+			#name              = "ホーム"
+			#identifier        = "home"
+			#url               = "/"
+			#pre               = "<i class='fa fa-home'></i>"
+			#weight            = 1
+
+	#[languages.ko]
+		#contentDir = "content/hangugeo"
+		#languageName = "한국어"
+		#languageFlag = "🇰🇷"
+		#languageCodeHTML = "ko"
+		#languageCodeCountry = "kr"
+		#timeZone = "Asia/Seoul"
+		#weight = 150
+		#[languages.ko.params]
+			#description = "Yahuhanan Yukia Sese Cuneta의 연대기 / ᜌᜓᜃᜒ (Yuki ・ 雪亮)."			# IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+			#motto = "이것이 망각의 끝이 아니라면 내 인생이 바로 오늘 끝날 듯 매일 살 것이다."
+		#[[languages.ko.menu.main]]
+			#name              = "집"
+			#identifier        = "home"
+			#url               = "/"
+			#pre               = "<i class='fa fa-home'></i>"
+			#weight            = 1
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+# Defaults. Uncomment and change if needed.
+[markup]
+	#defaultMarkdownHandler = "goldmark"
+	#[markup.asciidocExt]
+	#	backend = "html5"
+	#	docType = "article"
+	#	extensions = []
+	#	failureLevel = "fatal"
+	#	noHeaderOrFooter = true
+	#	safeMode = "unsafe"
+	#	sectionNumbers = false
+	#	trace = false
+	#	verbose = true
+	#	workingFolderCurrent = false
+	#	[markup.asciidocExt.attributes]
+	#[markup.goldmark]
+	#	[markup.goldmark.extensions]
+	#		definitionList = true
+	#		footnote = true
+	#		linkify = true
+	#		strikethrough = true
+	#		table = true
+	#		taskList = true
+	#		typographer = true
+	#	[markup.goldmark.parser]
+	#		attribute = true
+	#		autoHeadingID = true
+	#		autoHeadingIDType = "github"
+		[markup.goldmark.renderer]
+	#		hardWraps = false
+			unsafe = true																				# we need this to use full HTML in markdown
+	#		xhtml = false
+	[markup.highlight]
+	#	codeFences = true
+		guessSyntax = false
+	#	hl_Lines = ""
+	#	lineNoStart = 1
+	#	lineNos = false
+	#	lineNumbersInTable = true
+		noClasses = true
+		style = "monokai"
+		tabWidth = 2
+	#[markup.tableOfContents]
+	#	endLevel = 3
+	#	ordered = false
+	#	startLevel = 2
+  [markup.pandoc]
+    InputFormat = "markdown"
+    UseLegacyHtml = false
+    UseMathjax = true
+    #UseMathml = false
+    #UseWebtext = false
+    #UseKatex = true
+    #[markup.pandoc.filters] 
+    #[markup.pandoc.extensions] 
+    #[markup.pandoc.extraArgs]
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+# Defaults. Uncomment and change if needed.
+[minify]
+	#disableCSS = false
+	#disableHTML = false
+	#disableJS = false
+	#disableJSON = false
+	#disableSVG = false
+	#disableXML = false
+	minifyOutput = false																		# should be false to keep the casing of hreflang
+	[minify.tdewolff]
+		#[minify.tdewolff.css]
+			#keepCSS2 = true
+			#precision = 0
+		[minify.tdewolff.html]
+			#keepComments = false
+			#keepConditionalComments = true
+			#keepDefaultAttrVals = true
+			#keepDocumentTags = true
+			keepEndTags = true
+			keepQuotes = true
+			#keepWhitespace = true
+		#[minify.tdewolff.js]
+			#keepVarNames = false
+			#precision = 0
+		#[minify.tdewolff.json]
+			#precision = 0
+		#[minify.tdewolff.svg]
+			#precision = 0
+		#[minify.tdewolff.xml]
+			#keepWhitespace = false
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[module]
+  replacements = [
+    "github.com/YourOnly-One/youronlyone-hugo-partials -> /home/yuki/repos/hugo-modules/youronlyone-hugo-partials",
+    "github.com/YourOnly-One/youronlyone-hugo-overrides -> /home/yuki/repos/hugo-modules/youronlyone-hugo-overrides",
+    "github.com/YourOnly-One/hugo-structured-data -> /home/yuki/repos/hugo-modules/hugo-structured-data",
+    "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/hugo-modules/hugo-shortcodes",
+    "github.com/YourOnly-One/hugo-atom-feed -> /home/yuki/repos/hugo-modules/hugo-atom-feed",
+    "github.com/apvarun/showcase-hugo-theme -> /home/yuki/repos/hugo-themes/showcase-hugo-theme",
+    "github.com/YourOnly-One/youronlyone-hugo-content -> /home/yuki/repos/hugo-modules/youronlyone-hugo-content"
+  ]
+
+  [[module.imports]]
+    disable = false                           # default: false
+    ignoreConfig = false                      # default: false
+    ignoreImports = false                     # default: false
+    noMounts = false                          # default: false
+    noVendor = false                          # default: false
+    path = "github.com/YourOnly-One/youronlyone-hugo-partials"
+  [[module.imports]]
+    path = "github.com/YourOnly-One/youronlyone-hugo-overrides"
+  [[module.imports]]
+    path = "github.com/YourOnly-One/hugo-structured-data"
+  [[module.imports]]
+    path = "github.com/YourOnly-One/hugo-shortcodes"
+  [[module.imports]]
+    path = "github.com/YourOnly-One/hugo-atom-feed"
+  [[module.imports]]
+    path = "github.com/apvarun/showcase-hugo-theme"
+
+  [[module.imports]]
+    path = "github.com/YourOnly-One/youronlyone-hugo-content"
+
+    # BGN: /frontpage/ content
+      #[[module.imports.mounts]]
+      #  source = "frontpage/eng-ph"
+      #  target = "content"
+      #  lang = "en"
+      [[module.imports.mounts]]
+        source = "frontpage"
+        target = "content"
+        lang = "en-ph"
+      #[[module.imports.mounts]]
+      #  source = "frontpage/nihongo"
+      #  target = "content"
+      #  lang = "ja"
+      #[[module.imports.mounts]]
+      #  source = "frontpage/hangugeo"
+      #  target = "content"
+      #  lang = "ko"
+    # END: /frontpage/ content
+
+  # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
+  #   if you add a mounts section you should remove the old staticDir etc. settings.
+  #   When you add a mount, the default mount for the concerned target root is ignored: be sure to explicitly add it.
+    #[[module.mounts]]
+    #  source = "content/eng-ph"
+    #  target = "content"
+    #  lang = "en"                                # when in multihost / multilang mode
+    [[module.mounts]]
+      source = "content/eng-ph"
+      target = "content"
+      lang = "en-ph"                             # when in multihost / multilang mode
+    #[[module.mounts]]
+    #  source = "content/nihongo"
+    #  target = "content"
+    #  lang = "ja"                                # when in multihost / multilang mode
+    #[[module.mounts]]
+    #  source = "content/hangugeo"
+    #  target = "content"
+    #  lang = "ko"                                # when in multihost / multilang mode
+
+    #[[module.mounts]]
+    #  source = "static/eng-ph"
+    #  target = "static"
+    #  lang = "en"                                # when in multihost / multilang mode
+    [[module.mounts]]
+      source = "static/eng-ph"
+      target = "static"
+      lang = "en-ph"                             # when in multihost / multilang mode
+    #[[module.mounts]]
+    #  source = "static/nihongo"
+    #  target = "static"
+    #  lang = "ja"                                # when in multihost / multilang mode
+    #[[module.mounts]]
+    #  source = "static/hangugeo"
+    #  target = "static"
+    #  lang = "ko"                                # when in multihost / multilang mode
+
+    [[module.mounts]]
+      source = "layouts"
+      target = "layouts"
+    [[module.mounts]]
+      source = "data"
+      target = "data"
+    [[module.mounts]]
+      source = "assets"
+      target = "assets"
+    [[module.mounts]]
+      source = "i18n"
+      target = "i18n"
+    [[module.mounts]]
+      source = "archetypes"
+      target = "archetypes"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[outputs]
+	# <domain>/posts/my-post/atom.xml
+	page = ["HTML"]																							# default: HTML
+
+	# <domain>/atom.xml
+	home = ["HTML"]											# default: HTML, RSS
+
+	# <domain>/posts/atom.xml
+	section = ["HTML"]														# default: HTML, RSS
+
+	# <domain>/tags/atom.xml, <domain>/categories/atom.xml
+	taxonomy = ["HTML"]													# default: HTML, RSS
+
+	# <domain>/tags/mytag/atom.xml, <domain>/categories/mycat/atom.xml
+	term = ["HTML"]															# default: HTML, RSS
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[params]
+  googleTagManager = "GTM-KT65GHZ"
+  siteFullURL = "https://im.YourOnly.One"								# Unfortunately we need to add this because using .Site.BaseURL is not working properly in /layouts/_default/list.atom.xml
+  subdir = "yoo"
+  rssfull = "true"
+  faviconcache = "fmgy"
+  faviconbuster = "TimmieIsMyFate"
+  jquerycdn = false
+
+	### BGN: Structured Data ###
+		description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+		license = "https://im.YourOnly.One/p/legal-notice"
+		#issn = ""
+		#awards = [""]
+		images = ["https://rsc.YourOnly.One/img/y/Yuki_flag-300h.webp"]
+
+		name = "YourOnly.One" # your company name
+		author = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)"
+		primaryauthor = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)" # Used as primary author if no specific is set
+		ownerhomepage = "https://YourOnly.One"
+		alternatenames = [ "JC John Sese Cuneta", "Yuki"]
+		gender = "https://schema.org/Male"
+		knowslanguages = ["en-PH", "fil", "tl-Tglg"]
+		nationality = "Filipino"
+
+		copyright = ""
+		copyrightnotice = "JC John Sese Cuneta"
+		copyrightyear = "2021"			# same as datePublished
+
+		logourl = "https://rsc.YourOnly.One/img/y/Yuki_flag-square-300x.webp" # Used in structured data as logo url
+		keywords = ["YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
+		imageurl = "https://rsc.YourOnly.One/img/y/Yuki_flag-300h.webp" # Used in structured data as background image
+
+		contact = "" # Primary email address
+		phone = "" # Primary phone
+		primarylocation = "" # Used as primary location if no specific is set
+
+		color = "#000000"
+		pricerange = "" # Used in structured data as price range
+	### END: Structured Data ###
+
+	### BGN: Theme Settings ###
+		message = ""
+		hideAutoMenu = false
+
+	  # Pagination options
+	  paginate = 12
+	  multipage = false
+
+	  # Dark mode
+	  darkMode = true
+	### END: Theme Settings ###
+
+  ### BGN: Other Settings ###
+    [params.siteowner]
+      given_name = "Yahuhanan Yukia"
+      middle_name = "Sese"
+      family_name = "Cuneta"
+
+    [params.semweb.publisher]
+      name = "YourOnly.One"
+      sameas = "https://YourOnly.One"
+
+    [params.verify]
+      naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
+      wot = "06c7ef6e7986586661ef"
+  ### END: Other Settings ###
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[permalinks]
+	# use /:slug/ as it fallsback to /:title/ if not set
+	"/" = "/:slug/"
+	#posts = "/:year/:month/:slug/"
+	posts = "/:slug-:year:yearday/"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+# See: https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[related]
+	threshold = 80
+	includeNewer = true
+	toLower = true
+	[[related.indices]]
+		name = "keywords"
+		weight = 100
+	[[related.indices]]
+		name = "date"
+		weight = 10
+	[[related.indices]]
+		name = "categories"
+		weight = 100
+	[[related.indices]]
+		name = "series"
+		weight = 100
+	[[related.indices]]
+		name = "tags"
+		weight = 50
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[services]
+  [services.instagram]
+    AccessToken = "183794425326191|5734e2f164e94e3247f0f1499061c7b7"
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[taxonomies]
+	category = "categories"
+	series = "series"
+	tag = "tags"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[social]
+  _merge = "deep"
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
