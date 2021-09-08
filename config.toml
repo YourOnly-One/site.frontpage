@@ -366,8 +366,7 @@
 
 [module]
   replacements = [
-    "github.com/YourOnly-One/youronlyone-hugo-partials -> /home/yuki/repos/hugo-modules/youronlyone-hugo-partials",
-    "github.com/YourOnly-One/youronlyone-hugo-overrides -> /home/yuki/repos/hugo-modules/youronlyone-hugo-overrides",
+    "github.com/YourOnly-One/youronlyone-hugo-defaults -> /home/yuki/repos/hugo-modules/youronlyone-hugo-defaults",
     "github.com/YourOnly-One/hugo-structured-data -> /home/yuki/repos/hugo-modules/hugo-structured-data",
     "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/hugo-modules/hugo-shortcodes",
     "github.com/YourOnly-One/hugo-atom-feed -> /home/yuki/repos/hugo-modules/hugo-atom-feed",
@@ -381,9 +380,7 @@
     ignoreImports = false                     # default: false
     noMounts = false                          # default: false
     noVendor = false                          # default: false
-    path = "github.com/YourOnly-One/youronlyone-hugo-partials"
-  [[module.imports]]
-    path = "github.com/YourOnly-One/youronlyone-hugo-overrides"
+    path = "github.com/YourOnly-One/youronlyone-hugo-defaults"
   [[module.imports]]
     path = "github.com/YourOnly-One/hugo-structured-data"
   [[module.imports]]
