@@ -1,0 +1,61 @@
+### Defaults. Uncomment and change if needed.
+
+#defaultMarkdownHandler = "goldmark"
+
+#[asciidocExt]
+  #backend = "html5"
+  #docType = "article"
+  #extensions = []
+  #failureLevel = "fatal"
+  #noHeaderOrFooter = true
+  #safeMode = "unsafe"
+  #sectionNumbers = false
+  #trace = false
+  #verbose = true
+  #workingFolderCurrent = false
+  #[markup.asciidocExt.attributes]
+
+[goldmark]
+  #[goldmark.extensions]
+    #definitionList = true
+    #footnote = true
+    #linkify = true
+    #strikethrough = true
+    #table = true
+    #taskList = true
+    #typographer = true
+  #[goldmark.parser]
+    #attribute = true
+    #autoHeadingID = true
+    #autoHeadingIDType = "github"
+  [goldmark.renderer]
+    #hardWraps = false
+     unsafe = true                                       # we need this to use full HTML in markdown
+    #xhtml = false
+
+[highlight]
+  codeFences = true
+  guessSyntax = true
+  #hl_Lines = ""
+  #lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
+  noClasses = true
+  style = "monokai"
+  tabWidth = 2
+
+[tableOfContents]
+  endLevel = 3
+  ordered = false
+  startLevel = 2
+
+[pandoc]
+  InputFormat = "markdown"
+  UseLegacyHtml = false
+  UseMathjax = true
+  #UseMathml = false
+  #UseWebtext = false
+  #UseKatex = true
+  #[markup.pandoc.filters] 
+  #[markup.pandoc.extensions] 
+  #[markup.pandoc.extraArgs]

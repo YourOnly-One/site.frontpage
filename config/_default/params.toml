@@ -1,0 +1,74 @@
+#mainSections = ["blog", "c"]
+
+googleTagManager = "GTM-KT65GHZ"
+subdir = "yoo"
+rssfull = "true"
+faviconcache = "fmgy"
+faviconbuster = "TimmieIsMyFate"
+jquerycdn = false
+
+### BGN: Structured Data ###
+  description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+  license = "https://im.youronly.one/p/legal-notice/"
+  #issn = ""
+  #awards = [""]
+  images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp"]
+
+  name = "YourOnly.One" # your company name
+  primaryauthor = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)" # Used as primary author if no specific is set
+  ownerhomepage = "https://youronly.one"
+  alternatenames = [ "JC John Sese Cuneta", "Yuki"]
+  gender = "https://schema.org/Male"
+  knowslanguages = ["en-PH", "fil", "tl-Tglg"]
+  nationality = "Filipino"
+
+  copyright = ""
+  copyrightnotice = "JC John Sese Cuneta"
+  copyrightyear = "2021"      # same as datePublished
+
+  logourl = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp" # Used in structured data as logo url
+  keywords = ["YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
+  imageurl = "https://rsc.youronly.one/img/y/Yuki_flag-300h.webp" # Used in structured data as background image
+
+  contact = "" # Primary email address
+  phone = "" # Primary phone
+  primarylocation = "" # Used as primary location if no specific is set
+
+  color = "#000000"
+  pricerange = "" # Used in structured data as price range
+### END: Structured Data ###
+
+### BGN: Theme Settings ###
+  message = ""
+  hideAutoMenu = false
+
+  # Pagination options
+  paginate = 12
+  multipage = false
+
+  # Dark mode
+  darkMode = true
+### END: Theme Settings ###
+
+### BGN: Other Settings ###
+  [params.author]                                                    # .Param "author.key"
+    name = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)"
+    email = ""
+    homepage = "https://youronly.one"
+    rel = "me noopener"
+    #rel = "noopener external nofollow"
+    avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
+
+  [params.siteowner]
+    given_name = "Yahuhanan Yukia"
+    middle_name = "Sese"
+    family_name = "Cuneta"
+
+  [params.semweb.publisher]
+    name = "YourOnly.One"
+    sameas = "https://youronly.one"
+
+  [params.verify]
+    naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
+    wot = "06c7ef6e7986586661ef"
+### END: Other Settings ###

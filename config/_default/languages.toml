@@ -1,0 +1,33 @@
+### Info: https://gohugo.io/content-management/multilingual/#configure-languages
+
+#[en]
+  #languageName = "English"
+  #languageFlag = "🇬🇧"
+  #languageCodeHTML = "en"
+  #languageCodeCountry = "DO_NOT_USE"
+  #timeZone = "Etc/UTC"
+  #weight = 110
+  #[en.params]
+  #[[en.menu.main]]
+    #identifier = "about"
+    #name = "About"
+    #url = "/about/"
+  #[[en.menu.main]]
+    #identifier = "posts"
+    #name = "Posts"
+    #url = "/posts/"
+
+[en-ph]
+  languageName = "EN-PH"
+  languageFlag = "🇵🇭"
+  languageCodeHTML = "en-PH"
+  languageCodeCountry = "ph"
+  timeZone = "Asia/Manila"
+  weight = 111
+  #[en-ph.params]
+  #[[en-ph.menu.main]]
+    #name              = "Home"
+    #identifier        = "home"
+    #url               = "/"
+    #pre               = "<i class='fa fa-home'></i>"
+    #weight            = 1

@@ -1,0 +1,4 @@
+date = ["date", "publishDate"]
+expiryDate = ["expiryDate"]
+lastmod = ["lastmod", "date", "publishDate"]  # do not use :fileModTime and :default (default includes git date)
+publishDate = ["publishDate", "date"]
