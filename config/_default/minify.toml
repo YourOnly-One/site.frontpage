@@ -1,7 +1,7 @@
 minifyOutput = false                                    # should be false to keep the casing of hreflang
 
 [tdewolff]
-  #[minify.tdewolff.css]
+  #[tdewolff.css]
     #keepCSS2 = true
     #precision = 0
   [tdewolff.html]
