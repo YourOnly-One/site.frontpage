@@ -4,7 +4,7 @@
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "github.com/YourOnly-One/youronlyone-hugo-defaults"
+  path = "github.com/YourOnly-One/yoo-hugo-defaults"
 
 [[imports]]
   path = "github.com/YourOnly-One/hugo-structured-data"
@@ -19,7 +19,7 @@
   path = "github.com/apvarun/showcase-hugo-theme"
 
 [[imports]]
-  path = "github.com/YourOnly-One/youronlyone-hugo-content"
+  path = "github.com/YourOnly-One/yoo-hugo-content"
   # BGN: /frontpage/ content
     #[[imports.mounts]]
     #  source = "frontpage/eng-ph"

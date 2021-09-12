@@ -1,10 +1,10 @@
 replacements = [
-  "github.com/YourOnly-One/youronlyone-hugo-defaults -> /home/yuki/repos/hugo-modules/youronlyone-hugo-defaults",
+  "github.com/YourOnly-One/yoo-hugo-defaults -> /home/yuki/repos/hugo-modules/yoo-hugo-defaults",
   "github.com/YourOnly-One/hugo-structured-data -> /home/yuki/repos/hugo-modules/hugo-structured-data",
   "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/hugo-modules/hugo-shortcodes",
   "github.com/YourOnly-One/hugo-atom-feed -> /home/yuki/repos/hugo-modules/hugo-atom-feed",
   "github.com/apvarun/showcase-hugo-theme -> /home/yuki/repos/hugo-themes/frontpage-showcase-hugo-theme",
-  "github.com/YourOnly-One/youronlyone-hugo-content -> /home/yuki/repos/hugo-modules/youronlyone-hugo-content"
+  "github.com/YourOnly-One/yoo-hugo-content -> /home/yuki/repos/hugo-modules/yoo-hugo-content"
 ]
 
 [[imports]]
@@ -13,7 +13,7 @@ replacements = [
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "github.com/YourOnly-One/youronlyone-hugo-defaults"
+  path = "github.com/YourOnly-One/yoo-hugo-defaults"
 
 [[imports]]
   path = "github.com/YourOnly-One/hugo-structured-data"
@@ -28,7 +28,7 @@ replacements = [
   path = "github.com/apvarun/showcase-hugo-theme"
 
 [[imports]]
-  path = "github.com/YourOnly-One/youronlyone-hugo-content"
+  path = "github.com/YourOnly-One/yoo-hugo-content"
   # BGN: /frontpage/ content
     #[[imports.mounts]]
     #  source = "frontpage/eng-ph"
