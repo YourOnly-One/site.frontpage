@@ -1,5 +1,3 @@
-### Defaults. Uncomment and change if needed.
-
 minifyOutput = false                                    # should be false to keep the casing of hreflang
 
 [tdewolff]

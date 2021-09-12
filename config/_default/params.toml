@@ -51,7 +51,7 @@ jquerycdn = false
 ### END: Theme Settings ###
 
 ### BGN: Other Settings ###
-  [params.author]                                                    # .Param "author.key"
+  [author]                                                    # .Param "author.key"
     name = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)"
     email = ""
     homepage = "https://youronly.one"
@@ -59,16 +59,16 @@ jquerycdn = false
     #rel = "noopener external nofollow"
     avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
 
-  [params.siteowner]
+  [siteowner]
     given_name = "Yahuhanan Yukia"
     middle_name = "Sese"
     family_name = "Cuneta"
 
-  [params.semweb.publisher]
+  [semweb.publisher]
     name = "YourOnly.One"
     sameas = "https://youronly.one"
 
-  [params.verify]
+  [verify]
     naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
     wot = "06c7ef6e7986586661ef"
 ### END: Other Settings ###

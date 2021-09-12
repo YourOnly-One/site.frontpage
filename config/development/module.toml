@@ -30,19 +30,19 @@ replacements = [
 [[imports]]
   path = "github.com/YourOnly-One/youronlyone-hugo-content"
   # BGN: /frontpage/ content
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "frontpage/eng-ph"
     #  target = "content"
     #  lang = "en"
-    [[module.imports.mounts]]
+    [[imports.mounts]]
       source = "frontpage/eng-ph"
       target = "content"
       lang = "en-ph"
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "frontpage/nihongo"
     #  target = "content"
     #  lang = "ja"
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "frontpage/hangugeo"
     #  target = "content"
     #  lang = "ko"
