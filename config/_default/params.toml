@@ -55,9 +55,18 @@ jquerycdn = false
     name = "ᜌᜓᜃᜒ (Yuki ・ 雪亮)"
     email = ""
     homepage = "https://youronly.one"
+    avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
+    #emoji = "&#x1FAF0;&#x1F3FE;"
+    emoji = "❄️"
+    descriptionshort = "Born a writer and programmer."
+    descriptionlong = "Lives in the Philippines and have been writing and programming at a young age."
+    motto = "If this is not the end of oblivion, then I shall live everyday as if my life were to end on this very day."
+    locationorigin = "Philippines"
+    locationcurrent = "Philippines"
+    organization = "Yelosan Publishing"
+
     rel = "me noopener"
     #rel = "noopener external nofollow"
-    avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
 
   [siteowner]
     given_name = "Yahuhanan Yukia"
