@@ -9,4 +9,5 @@ series = "/series/:slug/"
 tags = "/tag/:slug/"
 
 channels = "/channels/:slug/"
-c = "/:sections/:slug-:year:yearday/"
+c = "/:sections[1:]/:slug-:year:yearday/"
+kb = "/:sections/:slug-:year:yearday/"
