@@ -28,6 +28,7 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/yuki/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/yuki/"/>
   </url>
+
   <url>
     <loc>https://im.youronly.one/snoworld/en-ph/</loc>
     <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/snoworld/"/>
@@ -56,6 +57,36 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/snoworld/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/snoworld/"/>
   </url>
+
+  <url>
+    <loc>https://im.youronly.one/way/en-ph/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/way/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/way/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/way/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/way/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/way/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/way/ja/"/>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/way/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/way/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/way/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/way/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/way/ko/"/>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/way/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/way/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/way/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/way/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/way/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/way/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/way/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/way/"/>
+  </url>
+
   <url>
     <loc>https://im.youronly.one/love/en-ph/</loc>
     <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/love/"/>
@@ -83,5 +114,34 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/love/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/love/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/love/"/>
+  </url>
+
+  <url>
+    <loc>https://im.youronly.one/techmagus/en-ph/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/techmagus/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/techmagus/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/techmagus/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/techmagus/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/techmagus/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/techmagus/ja/"/>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/techmagus/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/techmagus/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/techmagus/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/techmagus/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/techmagus/ko/"/>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/techmagus/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/techmagus/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/techmagus/"/>
+  </url>
+  <url>
+    <loc>https://im.youronly.one/techmagus/</loc>
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://im.youronly.one/techmagus/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://im.youronly.one/techmagus/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://im.youronly.one/techmagus/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://im.youronly.one/techmagus/"/>
   </url>
 </urlset>

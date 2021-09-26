@@ -12,6 +12,7 @@
 	<url>
 		<loc>https://im.youronly.one/yuki/</loc>
 	</url>
+
 	<url>
 		<loc>https://im.youronly.one/snoworld/en-ph/</loc>
 	</url>
@@ -24,6 +25,20 @@
 	<url>
 		<loc>https://im.youronly.one/snoworld/</loc>
 	</url>
+
+	<url>
+		<loc>https://im.youronly.one/way/en-ph/</loc>
+	</url>
+	<url>
+		<loc>https://im.youronly.one/way/ja/</loc>
+	</url>
+	<url>
+		<loc>https://im.youronly.one/way/ko/</loc>
+	</url>
+	<url>
+		<loc>https://im.youronly.one/way/</loc>
+	</url>
+
 	<url>
 		<loc>https://im.youronly.one/love/en-ph/</loc>
 	</url>
@@ -36,18 +51,20 @@
 	<url>
 		<loc>https://im.youronly.one/love/</loc>
 	</url>
+
 	<url>
-		<loc>https://natsari.youronly.one/</loc>
+		<loc>https://im.youronly.one/techmagus/en-ph/</loc>
 	</url>
 	<url>
-		<loc>https://techmagus.youronly.one/</loc>
+		<loc>https://im.youronly.one/techmagus/ja/</loc>
 	</url>
 	<url>
-		<loc>https://health.youronly.one/</loc>
+		<loc>https://im.youronly.one/techmagus/ko/</loc>
 	</url>
 	<url>
-		<loc>https://wealth.youronly.one/</loc>
+		<loc>https://im.youronly.one/techmagus/</loc>
 	</url>
+
 	<url>
 		<loc>https://im.youronly.one/confidentraveler/</loc>
 	</url>
@@ -62,5 +79,12 @@
 	</url>
 	<url>
 		<loc>https://im.youronly.one/</loc>
+	</url>
+
+	<url>
+		<loc>https://health.youronly.one/</loc>
+	</url>
+	<url>
+		<loc>https://wealth.youronly.one/</loc>
 	</url>
 </urlset>
