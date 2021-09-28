@@ -3,7 +3,7 @@ replacements = [
   "github.com/YourOnly-One/hugo-structured-data -> /home/yuki/repos/hugo-modules/hugo-structured-data",
   "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/hugo-modules/hugo-shortcodes",
   "github.com/YourOnly-One/hugo-atom-feed -> /home/yuki/repos/hugo-modules/hugo-atom-feed",
-  "github.com/apvarun/showcase-hugo-theme -> /home/yuki/repos/hugo-themes/frontpage-showcase-hugo-theme",
+  "github.com/techmagus/hugo-theme-showcase -> /home/yuki/repos/hugo-themes/frontpage-hugo-theme-showcase",
   "github.com/YourOnly-One/yoo-hugo-content -> /home/yuki/repos/hugo-modules/yoo-hugo-content"
 ]
 
@@ -25,28 +25,28 @@ replacements = [
   path = "github.com/YourOnly-One/hugo-atom-feed"
 
 [[imports]]
-  path = "github.com/apvarun/showcase-hugo-theme"
+  path = "github.com/techmagus/hugo-theme-showcase"
 
 [[imports]]
   path = "github.com/YourOnly-One/yoo-hugo-content"
-  # BGN: /frontpage/ content
+  # BGN: /confidentraveler/ content
     #[[imports.mounts]]
-    #  source = "frontpage/eng-ph"
+    #  source = "confidentraveler/eng-ph"
     #  target = "content"
     #  lang = "en"
     [[imports.mounts]]
-      source = "frontpage/eng-ph"
+      source = "confidentraveler/eng-ph"
       target = "content"
       lang = "en-ph"
     #[[imports.mounts]]
-    #  source = "frontpage/nihongo"
+    #  source = "confidentraveler/nihongo"
     #  target = "content"
     #  lang = "ja"
     #[[imports.mounts]]
-    #  source = "frontpage/hangugeo"
+    #  source = "confidentraveler/hangugeo"
     #  target = "content"
     #  lang = "ko"
-  # END: /frontpage/ content
+  # END: /confidentraveler/ content
 
 
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts

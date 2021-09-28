@@ -16,28 +16,28 @@
   path = "github.com/YourOnly-One/hugo-atom-feed"
 
 [[imports]]
-  path = "github.com/apvarun/showcase-hugo-theme"
+  path = "github.com/techmagus/hugo-theme-showcase"
 
 [[imports]]
   path = "github.com/YourOnly-One/yoo-hugo-content"
-  # BGN: /frontpage/ content
+  # BGN: /confidentraveler/ content
     #[[imports.mounts]]
-    #  source = "frontpage/eng-ph"
+    #  source = "confidentraveler/eng-ph"
     #  target = "content"
     #  lang = "en"
     [[imports.mounts]]
-      source = "frontpage/eng-ph"
+      source = "confidentraveler/eng-ph"
       target = "content"
       lang = "en-ph"
     #[[imports.mounts]]
-    #  source = "frontpage/nihongo"
+    #  source = "confidentraveler/nihongo"
     #  target = "content"
     #  lang = "ja"
     #[[imports.mounts]]
-    #  source = "frontpage/hangugeo"
+    #  source = "confidentraveler/hangugeo"
     #  target = "content"
     #  lang = "ko"
-  # END: /frontpage/ content
+  # END: /confidentraveler/ content
 
 
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
