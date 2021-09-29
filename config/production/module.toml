@@ -20,24 +20,24 @@
 
 [[imports]]
   path = "github.com/YourOnly-One/yoo-hugo-content"
-  # BGN: /confidentraveler/ content
+  # BGN: /frontpage/ content
     #[[imports.mounts]]
-    #  source = "confidentraveler/eng-ph"
+    #  source = "frontpage/eng-ph"
     #  target = "content"
     #  lang = "en"
     [[imports.mounts]]
-      source = "confidentraveler/eng-ph"
+      source = "frontpage/eng-ph"
       target = "content"
       lang = "en-ph"
     #[[imports.mounts]]
-    #  source = "confidentraveler/nihongo"
+    #  source = "frontpage/nihongo"
     #  target = "content"
     #  lang = "ja"
     #[[imports.mounts]]
-    #  source = "confidentraveler/hangugeo"
+    #  source = "frontpage/hangugeo"
     #  target = "content"
     #  lang = "ko"
-  # END: /confidentraveler/ content
+  # END: /frontpage/ content
 
 
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
