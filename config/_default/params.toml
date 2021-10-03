@@ -68,6 +68,130 @@ jquerycdn = false
     rel = "me noopener"
     #rel = "noopener external nofollow"
 
+    ### BGN: Wishlist ###
+      [[author.gift]]
+        name = "Amazon"
+        code = ""
+        url = "https://www.amazon.com/hz/wishlist/ls/1YHYZNMDYDDB6/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist"
+        linktitle = "Wishlist"
+        tag = ""
+        message = "I love to read. A review is guaranteed for the book you will send as a gift."
+        type = "wishlist"
+      [[author.gift]]
+        name = "Steam"
+        code = ""
+        url = "https://store.steampowered.com/wishlist/profiles/76561197997196684/#sort=order&discount_any=1"
+        linktitle = "Wishlist"
+        tag = ""
+        message = ""
+        type = "wishlist"
+    ### END: Wishlist ###
+
+    ### BGN: Affiliate codes ###
+      [[author.gift]]
+        name = "Amazon"
+        code = "youronlyone-20"
+        url = "https://www.amazon.com?&_encoding=UTF8&tag=youronlyone-20&linkCode=ur2&linkId=387918b08ede21983ce5efc57f10361f&camp=1789&creative=9325"
+        linktitle = "youronlyone-20"
+        tag = ""
+        message = ""
+        type = "affiliate"
+    ### END: Affiliate codes ###
+
+    ### BGN: Tip Jar ###
+      #[[author.gift]]
+      #  name = "Coins.ph"
+      #  code = ""
+      #  url = ""
+      #  linktitle = ""
+      #  tag = ""
+      #  message = ""
+      #  type = "tip jar"
+      [[author.gift]]
+        name = "Flattr"
+        code = ""
+        url = "https://flattr.com/@YourOnlyOne"
+        linktitle = "@YourOnlyOne"
+        tag = ""
+        message = ""
+        type = "tip jar"
+      #[[author.gift]]
+      #  name = "GCash"
+      #  code = ""
+      #  url = ""
+      #  linktitle = ""
+      #  tag = ""
+      #  message = ""
+      #  type = "tip jar"
+      [[author.gift]]
+        name = "PayPal"
+        code = ""
+        url = "https://paypal.me/yukino"
+        linktitle = ""
+        tag = ""
+        message = ""
+        type = "tip jar"
+    ### END: Tip Jar ###
+
+    ### BGN: Cryptocurrency ###
+      [[author.gift]]
+        name = "XLM (Stellar)"
+        code = "GANH4BHGT35AYV3LLFHBZ6NU4N3EWT3K6LHZ5KDULKTUEDFCAJHIELL5"
+        url = ""
+        linktitle = ""
+        tag = "gift for https://youronly.one"
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "USDC (Stellar)"
+        code = "GANH4BHGT35AYV3LLFHBZ6NU4N3EWT3K6LHZ5KDULKTUEDFCAJHIELL5"
+        url = ""
+        linktitle = ""
+        tag = "gift for https://youronly.one"
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "XRP (XRPL)"
+        code = "rU2mEJSLqBRkYLVTv55rFTgQajkLTnT6mA"
+        url = ""
+        linktitle = ""
+        tag = "246013"
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "ETH (ERC-20)"
+        code = "0x739d2aae2a5b7a4e1d64c58d121c9d908d706c83"
+        url = ""
+        linktitle = ""
+        tag = ""
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "USDC (ERC-20)"
+        code = "0x739d2aae2a5b7a4e1d64c58d121c9d908d706c83"
+        url = ""
+        linktitle = ""
+        tag = ""
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "XBT (Bitcoin)"
+        code = "32w1De4wvr5jEzC4g5P4rkjvqg2bvMR8Vk"
+        url = ""
+        linktitle = ""
+        tag = ""
+        message = ""
+        type = "cryptocurrency"
+      [[author.gift]]
+        name = "BCH (BCHN)"
+        code = "pp8fkmchlu6a7c53a2s682jd70mncrzemsthca6ftl"
+        url = ""
+        linktitle = ""
+        tag = ""
+        message = ""
+        type = "cryptocurrency"
+    ### END: Cryptocurrency ###
+
   [siteowner]
     given_name = "Yahuhanan Yukia"
     middle_name = "Sese"
@@ -78,6 +202,7 @@ jquerycdn = false
     sameas = "https://youronly.one"
 
   [verify]
+    flattr = "4j1gl5"
     naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
     wot = "06c7ef6e7986586661ef"
 ### END: Other Settings ###
