@@ -136,7 +136,7 @@ jquerycdn = false
     ### BGN: Cryptocurrency ###
       [[author.gift]]
         name = "XLM (Stellar)"
-        code = "GANH4BHGT35AYV3LLFHBZ6NU4N3EWT3K6LHZ5KDULKTUEDFCAJHIELL5"
+        code = "yukino*keybase.io"
         url = ""
         linktitle = ""
         tag = "gift for https://youronly.one"
@@ -144,7 +144,7 @@ jquerycdn = false
         type = "cryptocurrency"
       [[author.gift]]
         name = "USDC (Stellar)"
-        code = "GANH4BHGT35AYV3LLFHBZ6NU4N3EWT3K6LHZ5KDULKTUEDFCAJHIELL5"
+        code = "yukino*keybase.io"
         url = ""
         linktitle = ""
         tag = "gift for https://youronly.one"
