@@ -1,40 +1,40 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://youronly.one/sitemap.index.xml
-Sitemap: https://youronly.one/sitemap-multilang.xml
-Sitemap: https://youronly.one/sitemap-general.xml
+Sitemap: https://im.youronly.one/sitemap.index.xml
+Sitemap: https://im.youronly.one/sitemap-multilang.xml
+Sitemap: https://im.youronly.one/sitemap-general.xml
 
-Sitemap: https://youronly.one/yuki/en-ph/sitemap.xml
-Sitemap: https://youronly.one/yuki/ja/sitemap.xml
-Sitemap: https://youronly.one/yuki/ko/sitemap.xml
-Sitemap: https://youronly.one/yuki/sitemap.xml
+Sitemap: https://im.youronly.one/yuki/en-ph/sitemap.xml
+Sitemap: https://im.youronly.one/yuki/ja/sitemap.xml
+Sitemap: https://im.youronly.one/yuki/ko/sitemap.xml
+Sitemap: https://im.youronly.one/yuki/sitemap.xml
 
-Sitemap: https://youronly.one/snoworld/en-ph/sitemap.xml
-Sitemap: https://youronly.one/snoworld/ja/sitemap.xml
-Sitemap: https://youronly.one/snoworld/ko/sitemap.xml
-Sitemap: https://youronly.one/snoworld/sitemap.xml
+Sitemap: https://im.youronly.one/snoworld/en-ph/sitemap.xml
+Sitemap: https://im.youronly.one/snoworld/ja/sitemap.xml
+Sitemap: https://im.youronly.one/snoworld/ko/sitemap.xml
+Sitemap: https://im.youronly.one/snoworld/sitemap.xml
 
-Sitemap: https://youronly.one/way/en-ph/sitemap.xml
-Sitemap: https://youronly.one/way/ja/sitemap.xml
-Sitemap: https://youronly.one/way/ko/sitemap.xml
-Sitemap: https://youronly.one/way/sitemap.xml
+Sitemap: https://im.youronly.one/way/en-ph/sitemap.xml
+Sitemap: https://im.youronly.one/way/ja/sitemap.xml
+Sitemap: https://im.youronly.one/way/ko/sitemap.xml
+Sitemap: https://im.youronly.one/way/sitemap.xml
 
-Sitemap: https://youronly.one/love/en-ph/sitemap.xml
-Sitemap: https://youronly.one/love/ja/sitemap.xml
-Sitemap: https://youronly.one/love/ko/sitemap.xml
-Sitemap: https://youronly.one/love/sitemap.xml
+Sitemap: https://im.youronly.one/love/en-ph/sitemap.xml
+Sitemap: https://im.youronly.one/love/ja/sitemap.xml
+Sitemap: https://im.youronly.one/love/ko/sitemap.xml
+Sitemap: https://im.youronly.one/love/sitemap.xml
 
-Sitemap: https://youronly.one/techmagus/en-ph/sitemap.xml
-Sitemap: https://youronly.one/techmagus/ja/sitemap.xml
-Sitemap: https://youronly.one/techmagus/ko/sitemap.xml
-Sitemap: https://youronly.one/techmagus/sitemap.xml
+Sitemap: https://im.youronly.one/techmagus/en-ph/sitemap.xml
+Sitemap: https://im.youronly.one/techmagus/ja/sitemap.xml
+Sitemap: https://im.youronly.one/techmagus/ko/sitemap.xml
+Sitemap: https://im.youronly.one/techmagus/sitemap.xml
 
-Sitemap: https://youronly.one/confidentraveler/sitemap.xml
-Sitemap: https://youronly.one/faithfulathlete/sitemap.xml
-Sitemap: https://youronly.one/yugenbard/sitemap.xml
-Sitemap: https://youronly.one/p/sitemap.xml
-Sitemap: https://youronly.one/sitemap.xml
+Sitemap: https://im.youronly.one/confidentraveler/sitemap.xml
+Sitemap: https://im.youronly.one/faithfulathlete/sitemap.xml
+Sitemap: https://im.youronly.one/yugenbard/sitemap.xml
+Sitemap: https://im.youronly.one/p/sitemap.xml
+Sitemap: https://im.youronly.one/sitemap.xml
 
 Sitemap: https://health.youronly.one/sitemap.xml
 Sitemap: https://wealth.youronly.one/sitemap.xml
