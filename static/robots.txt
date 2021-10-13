@@ -34,4 +34,5 @@ Sitemap: https://health.youronly.one/sitemap.xml?page=1
 Sitemap: https://wealth.youronly.one/sitemap.xml?page=1
 Sitemap: https://health.youronly.one/sitemap-pages.xml
 Sitemap: https://wealth.youronly.one/sitemap-pages.xml
-#DaumWebMasterTool:7ff5e6e5274cd290ec79b37117aa8a8a82fc7435bed2828abf49e3bffdde816d:R5Q7jxsJ2c9fU7dldHIG2Q==
+#DaumWebMasterTool:7074b30f2ea0291b815b33b17dfc13f837df178d31f3984ac83bdeb177d26ca2:Rtx+o4FmSLuyTBNv00hSPA==
+#DaumWebMasterTool:66df97cc73a9a11eccab84542b1110ff359377caadb99a3291ff9e86c7b30ba3:Rtx+o4FmSLuyTBNv00hSPA==
