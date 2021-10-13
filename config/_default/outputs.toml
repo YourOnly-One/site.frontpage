@@ -1,14 +1,14 @@
-# <domain>/posts/my-post/atom.xml
-page = ["HTML"]                                             # default: HTML
+# home/atom.xml
+home = ["HTML"]                            # default: HTML, RSS
 
-# <domain>/atom.xml
-home = ["HTML"]                      # default: HTML, RSS
+# home/section/PAGE-POST/atom.xml
+page = ["HTML"]                            # default: HTML
 
-# <domain>/posts/atom.xml
-section = ["HTML"]                           # default: HTML, RSS
+# home/SECTION/atom.xml
+section = ["HTML"]                         # default: HTML, RSS
 
-# <domain>/tags/atom.xml, <domain>/categories/atom.xml
-taxonomy = ["HTML"]                          # default: HTML, RSS
+# home/TAXONOMY/atom.xml
+taxonomy = ["HTML"]                        # default: HTML, RSS
 
-# <domain>/tags/mytag/atom.xml, <domain>/categories/mycat/atom.xml
-term = ["HTML"]                              # default: HTML, RSS
+# home/taxonomy/TERM/atom.xml
+term = ["HTML"]                            # default: HTML, RSS
