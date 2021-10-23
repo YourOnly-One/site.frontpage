@@ -42,7 +42,7 @@
   #defaultContentLanguage = "tl-tglg"
   defaultContentLanguageInSubdir = false                  # false -- homepage is using HTML redirect which is blocked by some browsers
   hasCJKLanguage = true
-  languageCode = "en-ph"
+  languageCode = "en-PH"
 
   ## Theme settings ##
     pluralizeListTitles = false
