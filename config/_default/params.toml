@@ -30,19 +30,18 @@ jquerycdn = false
 
 ### BGN: Other Settings ###
 	[semweb]
-		org = "yelosan"																												# optional; filename of Org
-		person = "yuki"																											# optional; filename of Person founder of Org
+		org = "yelosan"
 
-		#issn = ""																												# optional
-		acquirelicensepage = "https://youronly.one/p/legal-notice"																					# optional; URL to Page with info on how to acquire license to works
-		creator = "https://iam.youronly.one/#yuki"																										# optional; format: URL/#fragment-identifier
-		copyrightholder = "https://iam.youronly.one/#yuki"																						# optional; format: URL/#fragment-identifier of Org or Person
-		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"																						# optional; example: Copyleft 🄯 CC-BY-SA 4.0 International by Rabbit and Turtle, LLC.
-		credittext = "YourOnly.One (https://youronly.one)"																									# optional; example: My Website (https://example.com)
-		datefirstpublished = "2021-02-06"																					# optional; YYYY-MM-DD first published
-		#isblog = true																										# optional; uncomment if website is a webblog
-		license = "https://youronly.one/p/legal-notice"																										# optional; URL to License Page; this is for your Site-level license
-		publisher = "https://yelosan.youronly.one/"																									# optional; format: URL/
+		#issn = ""
+		acquirelicensepage = "https://youronly.one/p/legal-notice"
+		creator = "https://iam.youronly.one/#yuki"
+		copyrightholder = "https://iam.youronly.one/#yuki"
+		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
+		credittext = "YourOnly.One (https://youronly.one)"
+		datefirstpublished = "2021-02-06"
+		#isblog = true
+		license = "https://youronly.one/p/legal-notice"
+		publisher = "https://yelosan.youronly.one/"
 		sameas = [
 			"https://mastodon.social/@YourOnlyOne",
 			"https://pixelfed.social/youronlyone",
@@ -54,7 +53,15 @@ jquerycdn = false
 			"https://twitter.com/YourOnlyOne7",
 			"https://instagram.com/YourOnly.One",
 			"https://fb.com/YourOnly.One0"
-		]																										# optional
+		]
+
+		[[semweb.persons]]
+			person = "yuki"
+			#id = ""
+			#name = ""ᜌᜓᜃᜒ (Yuki | 雪亮)"
+			#url = ""
+			#avatar = ""
+			#rel = "noopener external nofollow"
 
 	[verify]
 		flattr = "4j1gl5"
