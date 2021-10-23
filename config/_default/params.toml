@@ -34,8 +34,6 @@ jquerycdn = false
 
 		#issn = ""
 		acquirelicensepage = "https://youronly.one/p/legal-notice"
-		creator = "https://iam.youronly.one/#yuki"
-		copyrightholder = "https://iam.youronly.one/#yuki"
 		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
 		credittext = "YourOnly.One (https://youronly.one)"
 		datefirstpublished = "2021-02-06"
