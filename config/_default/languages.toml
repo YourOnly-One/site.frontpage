@@ -3,7 +3,7 @@
 #[en]
   #languageName = "English"
   #languageFlag = "🇬🇧"
-  #languageCodeHTML = "en"
+  #languageCode = "en"
   #languageCodeCountry = "DO_NOT_USE"
   #timeZone = "Etc/UTC"
   #weight = 110
@@ -11,7 +11,7 @@
 [en-ph]
   languageName = "English (PH)"
   languageFlag = "🇵🇭"
-  languageCodeHTML = "en-PH"
+  languageCode = "en-PH"
   languageCodeCountry = "ph"
   timeZone = "Asia/Manila"
   weight = 111
