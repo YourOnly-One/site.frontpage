@@ -7,7 +7,7 @@
   path = "github.com/YourOnly-One/yoo-hugo-defaults"
 
 [[imports]]
-  path = "github.com/YourOnly-One/hugo-structured-data"
+  path = "github.com/YourOnly-One/hugo-semantic-web"
 
 [[imports]]
   path = "github.com/YourOnly-One/hugo-shortcodes"
