@@ -13,7 +13,7 @@
   path = "github.com/YourOnly-One/hugo-shortcodes"
 
 [[imports]]
-  path = "github.com/YourOnly-One/hugo-atom-feed"
+  path = "github.com/YourOnly-One/hugo-feeds"
 
 [[imports]]
   path = "github.com/techmagus/hugo-theme-showcase"
