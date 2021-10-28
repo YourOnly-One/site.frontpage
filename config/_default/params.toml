@@ -33,12 +33,12 @@ jquerycdn = false
 		org = "yelosan"
 
 		#issn = ""
-		acquirelicensepage = "https://youronly.one/p/legal-notice"
+		acquirelicensepage = "https://youronly.one/p/legal-notice/"
 		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
 		credittext = "YourOnly.One (https://youronly.one)"
 		datefirstpublished = "2021-02-06"
 		#isblog = true
-		license = "https://youronly.one/p/legal-notice"
+		license = "https://youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
 			"https://mastodon.social/@YourOnlyOne",

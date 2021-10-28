@@ -1,5 +1,5 @@
 ####### Base Config #######
-  baseURL = "https://im.youronly.one"
+  baseURL = "https://im.youronly.one/"
   title = "I'M YourOnly.One"
   copyright = ""                                          # we are using our own footer
   timeZone = "Asia/Manila"
@@ -26,7 +26,7 @@
   enableInlineShortcodes = false                          # disabled for security reasons as per Hugo documentation
   enableRobotsTXT = false                                 # Hugo robots.txt template
   relativeURLs = false                                    # false for our use-case; make all relative URLs relative to content root
-  refLinksNotFoundURL = "https://im.youronly.one"
+  refLinksNotFoundURL = "https://im.youronly.one/"
 
   ## Dev settings ##
     publishDir = "../../live/public"
