@@ -19,7 +19,7 @@ minifyOutput = true																		# default: false
 		keepDocumentTags = true															# default: true
 		keepEndTags = true																	# default: true
 		keepQuotes = true																	# default: false
-		keepWhitespace = true																# default: true
+		keepWhitespace = false																# default: true
 
 	[tdewolff.js]
 		keepVarNames = false																# default: false
