@@ -7,6 +7,7 @@ rssfull = "true"
 faviconcache = "fmgy"
 faviconbuster = "TimmieIsMyFate"
 jquerycdn = false
+#googleadsense = "ca-pub-8360283248006398"
 
 ### BGN: Structured Data ###
 	description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
@@ -65,4 +66,5 @@ jquerycdn = false
 		flattr = "4j1gl5"
 		naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
 		wot = "06c7ef6e7986586661ef"
+		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
 ### END: Other Settings ###

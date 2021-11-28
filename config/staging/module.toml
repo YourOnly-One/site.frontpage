@@ -1,10 +1,10 @@
 replacements = [
-  "github.com/YourOnly-One/yoo-hugo-defaults -> /home/yuki/repos/hugo-modules/yoo-hugo-defaults",
-  "github.com/YourOnly-One/hugo-semantic-web -> /home/yuki/repos/hugo-modules/hugo-semantic-web",
-  "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/hugo-modules/hugo-shortcodes",
-  "github.com/YourOnly-One/hugo-feeds -> /home/yuki/repos/hugo-modules/hugo-feeds",
-  "github.com/techmagus/hugo-theme-showcase -> /home/yuki/repos/hugo-themes/frontpage-hugo-theme-showcase",
-  "github.com/YourOnly-One/yoo-hugo-content -> /home/yuki/repos/hugo-modules/yoo-hugo-content"
+  "github.com/YourOnly-One/yoo-hugo-defaults -> /home/yuki/repos/yuki/hugo-modules/yoo-hugo-defaults",
+  "github.com/YourOnly-One/hugo-semantic-web -> /home/yuki/repos/yuki/hugo-modules/hugo-semantic-web",
+  "github.com/YourOnly-One/hugo-shortcodes -> /home/yuki/repos/yuki/hugo-modules/hugo-shortcodes",
+  "github.com/YourOnly-One/hugo-feeds -> /home/yuki/repos/yuki/hugo-modules/hugo-feeds",
+  "github.com/techmagus/hugo-theme-showcase -> /home/yuki/repos/yuki/hugo-themes/frontpage-hugo-theme-showcase",
+  "github.com/YourOnly-One/yoo-hugo-content -> /home/yuki/repos/yuki/hugo-modules/yoo-hugo-content"
 ]
 
 [[imports]]
