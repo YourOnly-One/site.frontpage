@@ -7,14 +7,14 @@
 
 ####### Site settings #######
   #footnoteAnchorPrefix = ""                              # prefix for footnote anchors
-  footnoteReturnLinkContents = "↩"                        # text to display for footnote return links
-  paginate = 1000
+  footnoteReturnLinkContents = "↩️"                        # text to display for footnote return links
+  paginate = 100
   #paginatePath = "page"                                  # https://example.com/page/2
   rssLimit = 100
   summaryLength = 70
 
   #### Other settings ####
-    #disqusShortname = ""
+    #disqusShortname = "youronlyone"
     #googleAnalytics = ""                     # .Site.GoogleAnalytics
 
 
@@ -23,7 +23,6 @@
   #disableAliases = true                                  # use this if we want to use server redirects
   enableEmoji = true                                      # format :smile:
   enableGitInfo = false                                   # it is in Git time
-  enableRobotsTXT = false                                 # Hugo robots.txt template
   relativeURLs = false                                    # false for our use-case; make all relative URLs relative to content root
   refLinksNotFoundURL = "https://im.youronly.one/"
 
@@ -34,7 +33,7 @@
   ## Other settings ##
     PygmentsCodeFences = true
     PygmentsStyle = "monokai"
-    disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS"]
+    disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 #### LANG stuff ####
   defaultContentLanguage = "en-ph"
