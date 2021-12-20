@@ -1,0 +1,5 @@
+images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
+  [_target]
+    kind = "page"
+    #lang = ""
+    #path = "/blog/**"
