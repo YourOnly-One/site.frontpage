@@ -27,3 +27,6 @@ desktop.ini
 # Caches
 cache/
 .sass-cache
+
+# npm
+node_modules/
