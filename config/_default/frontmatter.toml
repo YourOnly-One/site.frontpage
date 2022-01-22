@@ -1,4 +1,4 @@
-date = ["date", "publishDate"]
-expiryDate = ["expiryDate"]
-lastmod = ["lastmod", "date", "publishDate"]  # do not use :fileModTime and :default (default includes git date)
-publishDate = ["publishDate", "date"]
+date = [":default"]											# ":default" =  ["date", "publishDate', "lastmod"]
+expiryDate = [":default"]								# ":default" = ["expiryDate"]
+lastmod = ["lastmod", ":fileModTime", ":default"]									# ":default" = [":git", "lastmod", "date", "publishDate"]
+publishDate = [":default"]							# ":default" = ["publishDate", "date"]
