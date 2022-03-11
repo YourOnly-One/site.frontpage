@@ -65,4 +65,9 @@ jquerycdn = false
 		naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
 		wot = "06c7ef6e7986586661ef"
 		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
+
+	[analytics]
+		microanalyticsio = "ZwSg9rf6GA"
+		cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
+		microsoftclarity = "63ddi0b99e"
 ### END: Other Settings ###
