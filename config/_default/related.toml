@@ -2,17 +2,28 @@ threshold = 80
 includeNewer = true
 toLower = true
 
+## Useful in hub/aggregate blogs
 [[indices]]
-  name = "keywords"
-  weight = 100
+  name = "channels"
+  weight = 90
+
+[[indices]]
+  name = "categories"
+  weight = 90
 
 [[indices]]
   name = "date"
   weight = 10
 
+## Using "keywords" is currently bugged.
+##   see: https://github.com/gohugoio/hugo/issues/9188
+#[[indices]]
+#  name = "keywords"
+#  weight = 70
+
 [[indices]]
-  name = "categories"
-  weight = 100
+  name = "lastmod"
+  weight = 80
 
 [[indices]]
   name = "series"
@@ -20,4 +31,4 @@ toLower = true
 
 [[indices]]
   name = "tags"
-  weight = 50
+  weight = 100
