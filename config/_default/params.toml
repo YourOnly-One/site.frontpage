@@ -6,6 +6,7 @@ rssfull = "true"
 faviconcache = "fmgy"
 faviconbuster = "TimmieIsMyFate"
 jquerycdn = false
+websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
 
 ### BGN: Structured Data ###
 	description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
