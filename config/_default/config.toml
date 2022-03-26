@@ -2,7 +2,7 @@
   baseURL = "https://im.youronly.one/"                    # .Site.BaseURL
   title = "I'M YourOnly.One"                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
   copyright = ""                                          # .Site.Copyright; leave empty and uncommented to override theme default; we are using our own footer
-  timeZone = "Asia/Manila"
+  timeZone = "Etc/UTC"
 
 
 ####### Site settings #######
