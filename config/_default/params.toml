@@ -41,16 +41,15 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 		license = "https://youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
-			"https://mastodon.social/@YourOnlyOne",
+			"https://mastodon.social/@youronlyone",
 			"https://pixelfed.social/youronlyone",
-			"https://eyeem.com/u/youronlyone",
-			"https://goodreads.com/youronlyone",
-			"https://last.fm/user/Laibcoms",
-			"https://trakt.tv/users/youronlyone",
-			"https://open.spotify.com/user/jcsesecuneta",
+			"https://youtube.com/YourOnlyONEofcl",
 			"https://twitter.com/YourOnlyONEofcl",
 			"https://instagram.com/YourOnly.One",
-			"https://facebook.com/YourOnly.ONE.ofcl"
+			"https://facebook.com/YourOnly.ONE.ofcl",
+			"https://last.fm/user/Laibcoms",
+			"https://trakt.tv/users/youronlyone",
+			"https://open.spotify.com/user/jcsesecuneta"
 		]
 
 		[[semweb.persons]]
