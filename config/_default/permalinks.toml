@@ -1,0 +1,13 @@
+# use /:slug/ for fallback to /:title/ if not set
+"/" = "/:slug/"
+
+blog = "/:slug-:year:yearday/"
+categories = "/cat/:slug/"
+pages = "/:slug/"
+posts = "/:slug-:year:yearday/"
+series = "/series/:slug/"
+tags = "/tag/:slug/"
+
+channels = "/channels/:slug/"
+c = "/:sections[1:]/:slug-:year:yearday/"
+kb = "/:sections/:slug-:year:yearday/"

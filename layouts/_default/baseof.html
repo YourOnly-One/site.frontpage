@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{{/* Multilang support for lang attribute */}}
+<html class="dark:bg-gray-900" lang="{{ or (.Site.LanguageCode) (.Site.Language.Lang) }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}">
+    {{- partial "head.html" . -}}
+    <body class="dark:bg-gray-900 min-h-screen">
+        <!-- BGN: YourOnly.One Body-01-Top -->
+          {{- if templates.Exists "partials/youronly.one-body-01-top.html" -}}
+            {{ partial "youronly.one-body-01-top.html" . }}
+          {{- end }}
+        <!-- END: YourOnly.One Body-01-Top -->
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

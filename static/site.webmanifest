@@ -1,0 +1,23 @@
+{
+  "name": "I'M YourOnly.One",
+  "short_name": "YourOnly.One",
+  "description": "Official website and blog of Yahuhanan Yukia Sese Cuneta.",
+  "dir": "auto",
+  "lang": "en-PH",
+  "categories": ["books", "business", "education", "entertainment", "finance", "fitness", "food", "games", "health", "lifestyle", "music", "news", "personalization", "photo", "productivity", "security", "shopping", "social", "sports", "travel", "utilities", "weather"],
+  "display": "minimal-ui",
+  "scope": "https://im.youronly.one",
+  "start_url": "https://im.youronly.one",
+  "icons": [
+    {
+      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-192x192.png?fmgy=TimmieIsMyFate",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-512x512.png?fmgy=TimmieIsMyFate",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

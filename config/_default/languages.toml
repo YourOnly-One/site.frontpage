@@ -1,0 +1,20 @@
+### Info: https://gohugo.io/content-management/multilingual/#configure-languages
+
+#[en]
+  #languageName = "English"
+  #languageFlag = "🇬🇧"
+  #languageCode = "en"
+  #languageCodeCountry = "DO_NOT_USE"
+  #timeZone = "Etc/UTC"
+  #weight = 110
+
+[en-ph]
+  languageName = "English (PH)"
+  languageFlag = "🇵🇭"
+  languageCode = "en-PH"
+  languageCodeCountry = "ph"
+  timeZone = "Asia/Manila"
+  weight = 111
+  #[[en-ph.menu.main]]
+    #name = "Home"
+    #url = "https://youronly.one"

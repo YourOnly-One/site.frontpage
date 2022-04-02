@@ -1,0 +1,73 @@
+#mainSections = ["blog", "posts"]                                             # Hugo default
+mainTypes = ["article", "sitepage", "review"]                                                # YourOnly.One
+
+subdir = "yoo"
+rssfull = "true"
+faviconcache = "fmgy"
+faviconbuster = "TimmieIsMyFate"
+jquerycdn = false
+websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
+
+### BGN: Structured Data ###
+	description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+	license = "https://im.youronly.one/p/legal-notice/"
+	keywords = ["YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
+	images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
+	#copyright = ""
+### END: Structured Data ###
+
+### BGN: Theme Settings ###
+	message = ""
+	hideAutoMenu = false
+
+	# Pagination options
+	paginate = 12
+	multipage = false
+
+	# Dark mode
+	darkMode = true
+### END: Theme Settings ###
+
+### BGN: Other Settings ###
+	[semweb]
+		org = "yelosan"
+
+		#issn = ""
+		acquirelicensepage = "https://youronly.one/p/legal-notice/"
+		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
+		credittext = "YourOnly.One (https://youronly.one)"
+		datefirstpublished = "2021-02-06"
+		#isblog = true
+		license = "https://youronly.one/p/legal-notice/"
+		publisher = "https://yelosan.youronly.one/"
+		sameas = [
+			"https://mastodon.social/@youronlyone",
+			"https://pixelfed.social/youronlyone",
+			"https://youtube.com/YourOnlyONEofcl",
+			"https://twitter.com/YourOnlyONEofcl",
+			"https://instagram.com/YourOnly.One",
+			"https://facebook.com/YourOnly.ONE.ofcl",
+			"https://last.fm/user/Laibcoms",
+			"https://trakt.tv/users/youronlyone",
+			"https://open.spotify.com/user/jcsesecuneta"
+		]
+
+		[[semweb.persons]]
+			person = "yuki"
+			#id = ""
+			#name = ""ᜌᜓᜃᜒ (Yuki | 雪亮)"
+			#url = ""
+			#avatar = ""
+			#rel = "noopener external nofollow"
+
+	[verify]
+		flattr = "4j1gl5"
+		naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
+		wot = "06c7ef6e7986586661ef"
+		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
+
+	[analytics]
+		microanalyticsio = "ZwSg9rf6GA"
+		cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
+		microsoftclarity = "63ddi0b99e"
+### END: Other Settings ###
