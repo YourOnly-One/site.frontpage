@@ -4,22 +4,22 @@
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "github.com/YourOnly-One/yoo-hugo-defaults"
+  path = "gitlab.com/youronlyone/defaults"
 
 [[imports]]
-  path = "github.com/YourOnly-One/hugo-semantic-web"
+  path = "gitlab.com/yelosan/hugo-semantic-web"
 
 [[imports]]
-  path = "github.com/YourOnly-One/hugo-shortcodes"
+  path = "gitlab.com/yelosan/hugo-shortcodes"
 
 [[imports]]
-  path = "github.com/YourOnly-One/hugo-feeds"
+  path = "gitlab.com/yelosan/hugo-feeds"
 
 [[imports]]
   path = "github.com/techmagus/hugo-theme-showcase"
 
 [[imports]]
-  path = "github.com/YourOnly-One/yoo-hugo-content"
+  path = "gitlab.com/youronlyone/content"
   # BGN: /frontpage/ content
     #[[imports.mounts]]
     #  source = "frontpage/en-ph"
