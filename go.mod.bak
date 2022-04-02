@@ -1,12 +1,12 @@
 module frontpage
 
-go 1.17
+go 1.18
 
 require (
-	github.com/YourOnly-One/yoo-hugo-defaults main
-	github.com/YourOnly-One/hugo-semantic-web main
-	github.com/YourOnly-One/hugo-shortcodes main
-	github.com/YourOnly-One/hugo-feeds main
 	github.com/techmagus/hugo-theme-showcase main
-	github.com/YourOnly-One/yoo-hugo-content main
+	gitlab.com/yelosan/hugo-feeds main
+	gitlab.com/yelosan/hugo-semantic-web main
+	gitlab.com/yelosan/hugo-shortcodes main
+	gitlab.com/youronlyone/content main
+	gitlab.com/youronlyone/defaults main
 )
