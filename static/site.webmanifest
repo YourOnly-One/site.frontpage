@@ -6,8 +6,8 @@
   "lang": "en-PH",
   "categories": ["books", "business", "education", "entertainment", "finance", "fitness", "food", "games", "health", "lifestyle", "music", "news", "personalization", "photo", "productivity", "security", "shopping", "social", "sports", "travel", "utilities", "weather"],
   "display": "minimal-ui",
-  "scope": "https://im.youronly.one",
-  "start_url": "https://im.youronly.one",
+  "scope": "https://im.youronly.one/",
+  "start_url": "https://im.youronly.one/",
   "icons": [
     {
       "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-192x192.png?fmgy=TimmieIsMyFate",
