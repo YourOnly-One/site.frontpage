@@ -67,7 +67,11 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
 
 	[analytics]
+		beampipeio = "youronly.one"
+		counterdev = "youronlyone"
+		insightsio = "kBp3NTTbGqo2BmcO"
 		microanalyticsio = "ZwSg9rf6GA"
+		swetrix = "bYdcXUajNvru"
 		cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
 		microsoftclarity = "63ddi0b99e"
 ### END: Other Settings ###
