@@ -56,25 +56,10 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
   {{ end }}
 
-  <style>
-    @font-face {
-      font-family: "Bree Serif";
-      src: url("./BreeSerif-Regular.ttf") format("truetype");
-    }
-    .font-bree {
-      font-family: "Bree Serif", serif;
-    }
-    .hide {
-      display: none;
-    }
-    .active {
-      background-color: #4299e1;
-      color: white;
-    }
-    .active:hover {
-      color: white;
-    }
-  </style>
+  {{- /* NOTE: Moved theme's inline style to a file */ -}}
+  {{ with resources.Get "css/theme.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous" media="all" type="text/css" />
+  {{ end }}
 
   <!-- BGN: YourOnly.One Head-02-Bottom -->
     {{- if templates.Exists "partials/youronly.one-head-02-btm.html" -}}

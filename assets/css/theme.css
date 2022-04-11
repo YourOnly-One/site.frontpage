@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Bree Serif";
+  src: url("./BreeSerif-Regular.ttf") format("truetype");
+}
+.font-bree {
+  font-family: "Bree Serif", serif;
+}
+.hide {
+  display: none;
+}
+.active {
+  background-color: #4299e1;
+  color: white;
+}
+.active:hover {
+  color: white;
+}

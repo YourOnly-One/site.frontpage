@@ -17,15 +17,15 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 ### END: Structured Data ###
 
 ### BGN: Theme Settings ###
-	message = ""
-	hideAutoMenu = false
+	message = "<bdi lang='tl-Tglg' class='font-baybayin-notosans'>ᜋᜊᜓᜑᜌ᜔᜶</bdi> Welcome to my hub. These are my official links/profiles in cyberspace. <bdi lang='hbo-Hebr' class='font-hebrew-notosans'>𐤔𐤋𐤅𐤌 𐤏𐤋𐤉𐤊𐤌</bdi>"
+	hideAutoMenu = true
 
 	# Pagination options
 	paginate = 12
 	multipage = false
 
 	# Dark mode
-	darkMode = true
+	darkMode = false
 ### END: Theme Settings ###
 
 ### BGN: Other Settings ###
