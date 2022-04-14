@@ -9,7 +9,7 @@ jquerycdn = false
 websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
 
 ### BGN: Structured Data ###
-	description = "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+	description = "I'M YourOnly.One 🔏 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
 	license = "https://im.youronly.one/p/legal-notice/"
 	keywords = ["YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
 	images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
@@ -32,13 +32,14 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 	[semweb]
 		org = "yelosan"
 
+		#isni = ""
 		#issn = ""
-		acquirelicensepage = "https://youronly.one/p/legal-notice/"
+		acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
 		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
-		credittext = "YourOnly.One (https://youronly.one)"
+		credittext = "I'M YourOnly.One 🔏 (https://im.youronly.one/)"
 		datefirstpublished = "2021-02-06"
 		#isblog = true
-		license = "https://youronly.one/p/legal-notice/"
+		license = "https://im.youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
 			"https://mastodon.social/@youronlyone",
@@ -47,9 +48,11 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 			"https://twitter.com/YourOnlyONEofcl",
 			"https://instagram.com/YourOnly.One",
 			"https://facebook.com/YourOnly.ONE.ofcl",
-			"https://last.fm/user/Laibcoms",
-			"https://trakt.tv/users/youronlyone",
-			"https://open.spotify.com/user/jcsesecuneta"
+			"https://www.pinterest.com/YourOnlyONEofcl",
+			"https://www.eyeem.com/u/YourOnlyOne",
+			"https://www.goodreads.com/youronlyone",
+			"https://vero.co/youronlyone",
+			"https://ask.fm/YourOnlyONEofcl"
 		]
 
 		[[semweb.persons]]
