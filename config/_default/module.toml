@@ -1,3 +1,8 @@
+[hugoVersion]
+  extended = true
+  #max = ""
+  min = "0.97.0"
+
 [[imports]]
   disable = false                           # default: false
   ignoreConfig = false                      # default: false
