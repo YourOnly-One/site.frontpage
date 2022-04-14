@@ -18,6 +18,7 @@ vendor
 public
 resources
 _vendor
+config/development/module.toml
 
 # OS files
 .DS_Store
