@@ -5,7 +5,7 @@ https://:project.pages.dev/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   # X-DNS-Prefetch-Control: off
   X-Content-Type-Options: nosniff
-  X-Frame-Options: SAMEORIGIN
+  X-Frame-Options: DENY
   Referrer-Policy: no-referrer,strict-origin-when-cross-origin
   Access-Control-Allow-Origin: *
   #Content-Encoding: gzip, deflate
