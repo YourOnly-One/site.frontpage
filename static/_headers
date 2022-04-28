@@ -12,30 +12,17 @@ https://:project.pages.dev/*
   Vary: Upgrade-Insecure-Requests, Origin, Accept-Encoding
 
   ##############################################################################
-  ###                      Cross-Origin-Embedder-Policy                      ###
-  ###                                                                        ###
-  ### - require-coop                                                         ###
-  ###   - PREFERRED                                                          ###
-  ###   - if all third-party embeds are CORP/CORS enabled                    ###
-  ### - credentialless                                                       ###
-  ###   - proposal                                                           ###
-  ###   - https://developer.chrome.com/blog/coep-credentialless-origin-trial ###
-  ### - unsafe-none                                                          ###
-  ###   - default                                                            ###
-  ###   - some third-party resources not yet CORP/CORS enabled               ###
-  ##############################################################################
-  Cross-Origin-Embedder-Policy: unsafe-none; report-to="default"
-
-  ##############################################################################
   ###                       Cross-Origin-Opener-Policy                       ###
   ###                                                                        ###
   ### - same-origin                                                          ###
-  ###   - USE THIS ONLY                                                      ###
+  ###   - PREFERRED                                                          ###
   ###   - same as rel=noopener but larger scope                              ###
   ### - same-origin-allow-popups                                             ###
+  ###   - needed for OAuth like Disqus                                       ###
   ### - unsafe-none                                                          ###
   ###   - default                                                            ###
   ##############################################################################
+  #Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="default"
   Cross-Origin-Opener-Policy: same-origin; report-to="default"
 
   ##############################################################################
@@ -54,6 +41,22 @@ https://:project.pages.dev/*
   ###   - if using absolute URLs; render dev builds correctly                ###
   ##############################################################################
   Cross-Origin-Resource-Policy: cross-origin
+
+  ##############################################################################
+  ###                      Cross-Origin-Embedder-Policy                      ###
+  ###                                                                        ###
+  ### - require-coop                                                         ###
+  ###   - PREFERRED                                                          ###
+  ###   - if all third-party embeds are CORP/CORS enabled                    ###
+  ### - credentialless                                                       ###
+  ###   - proposal                                                           ###
+  ###   - https://developer.chrome.com/blog/coep-credentialless-origin-trial ###
+  ### - unsafe-none                                                          ###
+  ###   - default                                                            ###
+  ###   - some third-party resources not yet CORP/CORS enabled               ###
+  ##############################################################################
+  #Cross-Origin-Embedder-Policy: unsafe-none; report-to="default"
+  Cross-Origin-Embedder-Policy: require-coop; report-to="default"
 
   ### removed: require-trusted-types-for 'script'; ###
   ### removed: script-src-elem 'self' 'report-sample' 'unsafe-inline' https:; script-src-attr 'self' 'report-sample' 'unsafe-inline' https:;  ###
