@@ -42,7 +42,9 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 		license = "https://im.youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
+			"https://c.im/@youronlyone",
 			"https://mastodon.social/@youronlyone",
+			"https://mastodon.online/@youronlyone",
 			"https://pixelfed.social/youronlyone",
 			"https://youtube.com/YourOnlyONEofcl",
 			"https://twitter.com/YourOnlyONEofcl",
@@ -51,8 +53,11 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 			"https://www.pinterest.com/YourOnlyONEofcl",
 			"https://www.eyeem.com/u/YourOnlyOne",
 			"https://www.goodreads.com/youronlyone",
+			"https://ask.fm/YourOnlyONEofcl",
 			"https://vero.co/youronlyone",
-			"https://ask.fm/YourOnlyONEofcl"
+			"https://ecency.com/@youronlyone",
+			"https://hive.blog/@youronlyone",
+			"https://steemit.com/@youronlyone"
 		]
 
 		[[semweb.persons]]
@@ -70,9 +75,7 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
 
 	[analytics]
-		beampipeio = "youronly.one"
 		counterdev = "youronlyone"
-		insightsio = "kBp3NTTbGqo2BmcO"
 		microanalyticsio = "ZwSg9rf6GA"
 		swetrix = "bYdcXUajNvru"
 		cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
