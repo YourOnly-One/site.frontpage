@@ -43,9 +43,10 @@
   <meta
     name="description"
     content="{{ .Site.Params.Description }}"
+    class="p-summary"
   />
   {{ end }}
-  <title>{{ .Site.Title }}</title>
+  <title class="p-name">{{ .Site.Title }}</title>
 
   {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
 
