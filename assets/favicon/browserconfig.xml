@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+{{- $mstile150png := resources.Get "favicon/mstile-150x150.png" | resources.Fingerprint "sha384" -}}
+{{- $mstile310png := resources.Get "favicon/mstile-310x310.png" | resources.Fingerprint "sha384" -}}
 <browserconfig>
   <msapplication>
     <tile>
-      <square150x150logo src="{{ .Site.BaseURL }}favicon/mstile-150x150.png" />
-      <square310x310logo src="{{ .Site.BaseURL }}favicon/mstile-310x310.png" />
+      <square150x150logo src="{{ $mstile150png.Permalink }}" />
+      <square310x310logo src="{{ $mstile310png.Permalink }}" />
       <TileColor>#2b5797</TileColor>
     </tile>
   </msapplication>

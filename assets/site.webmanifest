@@ -1,3 +1,5 @@
+{{- $androidchrome192png := resources.Get "favicon/android-chrome-192x192.png" | resources.Fingerprint "sha384" -}}
+{{- $androidchrome512png := resources.Get "favicon/android-chrome-512x512.png" | resources.Fingerprint "sha384" -}}
 {
   "name": "I'M YourOnly.One",
   "short_name": "YourOnly.One",
@@ -10,12 +12,12 @@
   "start_url": "https://im.youronly.one/",
   "icons": [
     {
-      "src": "{{ .Site.BaseURL }}favicon/android-chrome-192x192.png",
+      "src": "{{ $androidchrome192png.Permalink }}",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "{{ .Site.BaseURL }}favicon/android-chrome-512x512.png",
+      "src": "{{ $androidchrome512png.Permalink }}",
       "sizes": "512x512",
       "type": "image/png"
     }
