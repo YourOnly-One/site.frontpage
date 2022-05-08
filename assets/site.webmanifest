@@ -10,12 +10,12 @@
   "start_url": "https://im.youronly.one/",
   "icons": [
     {
-      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-192x192.png?fmgy=TimmieIsMyFate",
+      "src": "{{ .Site.BaseURL }}favicon/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-512x512.png?fmgy=TimmieIsMyFate",
+      "src": "{{ .Site.BaseURL }}favicon/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
