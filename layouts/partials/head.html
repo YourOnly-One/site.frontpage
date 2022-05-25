@@ -50,11 +50,11 @@
 
   {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
 
-  {{ if .Site.IsServer }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
-  {{ else }}
+  {{ if hugo.IsProduction }}
     {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+  {{ else }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
   {{ end }}
 
   {{- /* NOTE: Moved theme's inline style to a file */ -}}
