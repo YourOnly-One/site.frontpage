@@ -2,4 +2,4 @@
 date = ["date", "publishdate", "lastmod"]                             # :default = ["date", "publishDate", "lastmod"]
 expirydate = ["expirydate"]                                           # :default = ["expiryDate"]
 lastmod = ["lastmod", ":git", ":fileModTime", "publishdate", "date"]  # :default = [":git", "lastmod", "date", "publishDate"]
-publishdate = ["publishdate", "date", "lastmod"]                      # :default = ["publishDate", "date"]
+publishdate = ["publishdate", "date"]                                 # :default = ["publishDate", "date"]
