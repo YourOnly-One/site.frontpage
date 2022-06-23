@@ -2,19 +2,23 @@
 
 #[en]
   #languageName = "English"
-  #languageFlag = "🇬🇧"
+  #languageFlag = "🇬🇧" # custom
   #languageCode = "en"
-  #languageCodeCountry = "DO_NOT_USE"
+  #languageCodeCountry = "DO_NOT_USE"  # custom
   #timeZone = "Etc/UTC"
+  #tzOffset = "0h" # custom
+  #tzAbbr = "UTC"  # custom
   #weight = 110
 
 [en-ph]
   languageName = "English (PH)"
-  languageFlag = "🇵🇭"
+  languageFlag = "🇵🇭" # custom
   languageCode = "en-PH"
-  languageCodeCountry = "ph"
+  languageCodeCountry = "ph"  # custom
   timeZone = "Asia/Manila"
+  tzOffset = "8h" # custom
+  tzAbbr = "PHT"  # custom
   weight = 111
   #[[en-ph.menu.main]]
     #name = "Home"
-    #url = "https://youronly.one"
+    #url = "https://im.youronly.one"
