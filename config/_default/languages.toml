@@ -2,22 +2,24 @@
 
 #[en]
   #languageName = "English"
-  #languageFlag = "🇬🇧" # custom
   #languageCode = "en"
-  #languageCodeCountry = "DO_NOT_USE"  # custom
+  #languageCodeCountry = "xx"              # custom
+  #languageFlag = "🇬🇧"                     # custom
   #timeZone = "Etc/UTC"
-  #tzOffset = "0h" # custom
-  #tzAbbr = "UTC"  # custom
+  #tzOffset = "12h"                        # custom
+  #tzAbbr = "UTC"                          # custom
+  #tzAbbrTitle = ""                        # custom
   #weight = 110
 
 [en-ph]
   languageName = "English (PH)"
-  languageFlag = "🇵🇭" # custom
   languageCode = "en-PH"
-  languageCodeCountry = "ph"  # custom
+  languageCodeCountry = "ph"              # custom
+  languageFlag = "🇵🇭"                     # custom
   timeZone = "Asia/Manila"
-  tzOffset = "8h" # custom
-  tzAbbr = "PHT"  # custom
+  tzOffset = "8h"                        # custom
+  tzAbbr = "ACT"                          # custom
+  tzAbbrTitle = "Asean Common Time"                        # custom
   weight = 111
   #[[en-ph.menu.main]]
     #name = "Home"
