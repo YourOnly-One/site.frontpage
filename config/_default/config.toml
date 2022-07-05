@@ -27,6 +27,7 @@
   ## Dev settings ##
     publishDir = "public"
     enableMissingTranslationPlaceholders = true
+    timeout = "30s"
 
   ## Other settings ##
     PygmentsCodeFences = true
@@ -42,5 +43,18 @@
   ## Theme settings ##
     pluralizeListTitles = false
   ## Theme settings ##
+
+
+#######  #######  #######  #######  #######  #######  #######  #######
+
+
+[mediaTypes]
+  [mediaTypes."image/avif"]
+    suffixes = ["avif"]
+  [mediaTypes."image/webp"]
+    suffixes = ["webp", "awebp"]
+  [mediaTypes."image/apng"]
+    suffixes = ["apng"]
+
 
 #######  #######  #######  #######  #######  #######  #######  #######
