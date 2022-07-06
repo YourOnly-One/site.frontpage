@@ -122,3 +122,9 @@ pre, code, kbd, samp {
 		font-family: var(--notosans-font), "Noto Sans CJK KR", "Noto Sans KR", var(--notosans-hebrew-font), var(--notosans-baybayin-font);
 	}
 /* END: multilingual support */
+
+/* BGN: overrides */
+p.text-white {
+	color: initial;
+}
+/* END: overrides */
