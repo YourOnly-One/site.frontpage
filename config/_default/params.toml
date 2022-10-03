@@ -70,14 +70,14 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 
 	[verify]
 		flattr = "4j1gl5"
-		naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
 		wot = "06c7ef6e7986586661ef"
 		ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
 
 	[analytics]
-		counterdev = "youronlyone"
-		microanalyticsio = "ZwSg9rf6GA"
-		swetrix = "bYdcXUajNvru"
 		cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
+		microanalyticsio = "ZwSg9rf6GA"
+		naver = "1375cb4224f1c40"
+		counterdev = "youronlyone"
+		swetrix = "bYdcXUajNvru"
 		microsoftclarity = "63ddi0b99e"
 ### END: Other Settings ###
