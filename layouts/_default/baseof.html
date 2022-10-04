@@ -13,5 +13,10 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+        <!-- BGN: YourOnly.One Body-02-Bottom -->
+          {{- if templates.Exists "partials/youronly.one-body-02-btm.html" -}}
+            {{ partial "youronly.one-body-02-btm.html" . }}
+          {{- end }}
+        <!-- END: YourOnly.One -02-Bottom -->
     </body>
 </html>
