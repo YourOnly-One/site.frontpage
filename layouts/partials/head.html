@@ -48,18 +48,12 @@
   {{ end }}
   <title class="p-name">{{ .Site.Title }}</title>
 
-  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
-
-  {{ if hugo.IsProduction }}
-    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
-  {{ else }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
-  {{ end }}
+  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" type="text/css" />
 
   {{- /* NOTE: Moved theme's inline style to a file */ -}}
-  {{ with resources.Get "css/theme.css" | minify }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous" media="all" type="text/css" />
+  {{ with resources.Get "css/theme.css" | minify | fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" media="all" type="{{ .MediaType }}" />
   {{ end }}
 
   <!-- BGN: YourOnly.One Head-02-Bottom -->
