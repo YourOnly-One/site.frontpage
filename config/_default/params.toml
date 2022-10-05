@@ -72,12 +72,13 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
     flattr = "4j1gl5"
     wot = "06c7ef6e7986586661ef"
     ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
+		followit = "jqEnpsdBvHltNryJFB4A"
 
   [analytics]
     cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
     microanalyticsio = "ZwSg9rf6GA"
-    #naver = "1375cb4224f1c40"   # https://youronly.one
-    naver = "137a7c92882ac90"   # https://im.youronly.one
+    naver = "1375cb4224f1c40"   # https://youronly.one
+    #naver = "137a7c92882ac90"   # https://im.youronly.one
     counterdev = "youronlyone"
     swetrix = "bYdcXUajNvru"
     microsoftclarity = "63ddi0b99e"
