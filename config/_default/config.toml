@@ -30,8 +30,6 @@
     timeout = "30s"
 
   ## Other settings ##
-    PygmentsCodeFences = true
-    PygmentsStyle = "monokai"
     disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 #### LANG stuff ####

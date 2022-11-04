@@ -1,10 +1,10 @@
-### See: https://gohugo.io/about/security-model/
+# See: https://gohugo.io/about/security-model/
 
-enableInlineShortcodes = false                          # disabled for security reasons as per Hugo documentation
+enableInlineShortcodes = false              # disabled for security reasons as per Hugo documentation
 
 [exec]
   allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$']
-  osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
 
 [funcs]
   getenv = ['^HUGO_']

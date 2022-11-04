@@ -41,11 +41,13 @@ defaultMarkdownHandler = "goldmark"                               # default: gol
   codeFences = true                                               # default: true
   guessSyntax = true                                             # default: false
   hl_Lines = ""                                                   # default: ""
+  hl_inline = false                                               # default: false
   lineAnchors = ""                                                # default: ""
   lineNoStart = 1                                                 # default: 1
   lineNos = true                                                 # default: false
   lineNumbersInTable = true                                       # default: true
   noClasses = false                                                # default: true
+  noHl = false                                                    # default: false
   style = "monokai"                                               # default: monokai
   tabWidth = 4                                                    # default: 4
 
@@ -62,6 +64,6 @@ defaultMarkdownHandler = "goldmark"                               # default: gol
   #UseMathml = false                                               # default: false
   #UseWebtext = false                                              # default: false
   #UseKatex = true                                                 # default: true
-  #[pandoc.filters] 
-  #[pandoc.extensions] 
+  #[pandoc.filters]
+  #[pandoc.extensions]
   #[pandoc.extraArgs]
