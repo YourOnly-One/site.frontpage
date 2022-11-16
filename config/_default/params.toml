@@ -5,6 +5,8 @@ rssfull = true
 jquerycdn = false
 websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
 
+favicon_mstilecolor = "#2b5797"
+
 ### BGN: Structured Data ###
   description = "I'M YourOnly.One 🔏 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
   license = "https://im.youronly.one/p/legal-notice/"
