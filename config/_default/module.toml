@@ -1,7 +1,7 @@
 [hugoVersion]
   extended = true
   #max = ""
-  min = "0.104.0"
+  min = "0.106.0"
 
 [[imports]]
   disable = false                           # default: false
@@ -9,22 +9,24 @@
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "gitlab.com/youronlyone/defaults"
+  path = "codeberg.org/yelosan/hugo-feeds"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-semantic-web"
+  path = "codeberg.org/yelosan/hugo-shortcodes"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-shortcodes"
+  path = "codeberg.org/yelosan/hugo-semantic-web"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-feeds"
+  path = "gitlab.com/youronlyone/images"
+  # BGN: /frontpage/ images
+    [[imports.mounts]]
+      source = "frontpage"
+      target = "assets/images"
+  # END: /frontpage/ images
 
 [[imports]]
-  path = "github.com/techmagus/hugo-theme-showcase"
-
-[[imports]]
-  path = "gitlab.com/youronlyone/content"
+  path = "codeberg.org/youronlyone/content"
   # BGN: /frontpage/ content
     #[[imports.mounts]]
     #  source = "frontpage/en-ph"
@@ -44,14 +46,11 @@
     #  lang = "ko"
   # END: /frontpage/ content
 
+[[imports]]
+  path = "codeberg.org/youronlyone/defaults"
 
 [[imports]]
-  path = "gitlab.com/youronlyone/images"
-  # BGN: /frontpage/ images
-    [[imports.mounts]]
-      source = "frontpage"
-      target = "assets/images"
-  # END: /frontpage/ images
+  path = "github.com/techmagus/hugo-theme-showcase"
 
 
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
