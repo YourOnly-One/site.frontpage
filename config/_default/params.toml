@@ -17,7 +17,7 @@ favicon_mstilecolor = "#2b5797"
 
 ### BGN: Theme Settings ###
   message = "<bdi lang='tl-Tglg' class='font-baybayin-notosans'>ᜋᜊᜓᜑᜌ᜔᜶</bdi> Welcome to my hub. These are my official links/profiles in cyberspace. <bdi lang='hbo-Hebr' class='font-hebrew-notosans'>𐤔𐤋𐤅𐤌 𐤏𐤋𐤉𐤊𐤌</bdi>"
-  hideAutoMenu = true
+  hideAutoMenu = false
 
   # Pagination options
   paginate = 12
