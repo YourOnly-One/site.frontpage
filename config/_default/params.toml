@@ -8,7 +8,7 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 favicon_mstilecolor = "#2b5797"
 
 ### BGN: Structured Data ###
-  description = "I'M YourOnly.One 🔏 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+  description = "♾️ 🐬 I'M YourOnly.One 🔏 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
   license = "https://im.youronly.one/p/legal-notice/"
   keywords = ["YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
   images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
@@ -35,7 +35,7 @@ favicon_mstilecolor = "#2b5797"
     #issn = ""
     acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
     copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
-    credittext = "I'M YourOnly.One 🔏 (https://im.youronly.one/)"
+    credittext = "♾️ 🐬 I'M YourOnly.One 🔏 (https://im.youronly.one/)"
     datecreated = "2021-02-06"
     #isblog = true
     license = "https://im.youronly.one/p/legal-notice/"
