@@ -43,23 +43,9 @@ favicon_mstilecolor = "#2b5797"
     sameas = [
       "https://facebook.com/101597304949708/",
       "https://facebook.com/yelosanpub/",
-      "https://c.im/@youronlyone",
-      "https://mastodon.social/@youronlyone",
-      "https://mastodon.online/@youronlyone",
-      "https://pixelfed.social/youronlyone",
-      "https://youtube.com/YourOnlyONEofcl",
-      "https://twitter.com/YourOnlyONEofcl",
-      "https://instagram.com/YourOnly.One",
-      "https://facebook.com/YourOnly.ONE.ofcl",
-      "https://www.pinterest.com/YourOnlyONEofcl",
-      "https://www.eyeem.com/u/YourOnlyOne",
-      "https://www.goodreads.com/youronlyone",
-      "https://vero.co/youronlyone",
-      "https://ecency.com/@youronlyone",
-      "https://hive.blog/@youronlyone",
-      "https://steemit.com/@youronlyone",
-      "https://gitlab.com/techmagus",
-      "https://github.com/techmagus"
+      "https://codeberg.org/yelosan",
+      "https://gitlab.com/yelosan",
+      "https://github.com/yelosan"
     ]
 
     [[semweb.persons]]
