@@ -1,3 +1,5 @@
+workspace = "off"
+
 [[imports]]
   disable = false                           # default: false
   ignoreConfig = false                      # default: false
