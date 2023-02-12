@@ -1,7 +1,7 @@
 # See: https://gohugo.io/getting-started/configuration/#configure-minify
 
 disableCSS = false                              # default: false
-disableHTML = false                             # default: false; should be true to keep the casing of hreflang
+disableHTML = false                             # default: false; set to true if you want to keep the case of hreflang
 disableJS = false                               # default: false
 disableJSON = false                             # default: false
 disableSVG = false                              # default: false
@@ -19,7 +19,7 @@ minifyOutput = true                            # default: false
     keepDefaultAttrVals = true                  # default: true
     keepDocumentTags = true                     # default: true
     keepEndTags = true                          # default: true
-    keepQuotes = true                          # default: false
+    keepQuotes = true                          # default: false; keep true to avoid surprise errors
     keepWhitespace = false                       # default: true
 
   [tdewolff.js]
