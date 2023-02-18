@@ -1,6 +1,6 @@
 # See: https://gohugo.io/getting-started/configuration/#configure-minify
 
-disableCSS = false                              # default: false
+disableCSS = true                              # default: false
 disableHTML = false                             # default: false; set to true if you want to keep the case of hreflang
 disableJS = false                               # default: false
 disableJSON = false                             # default: false
@@ -23,11 +23,12 @@ minifyOutput = true                            # default: false
     keepWhitespace = false                       # default: true
 
   [tdewolff.js]
-    keepVarNames = false                        # default: false
+    keepVarNames = true                        # default: false; true to make it easier to debug
+    noNullishOperator = false                   # default: false
     precision = 0                               # default: 0
 
   [tdewolff.json]
-    keepNumbers = false                         # default: false
+    keepNumbers = true                         # default: false; true to make it easier to read
     precision = 0                               # default: 0
 
   [tdewolff.svg]
