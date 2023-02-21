@@ -16,7 +16,7 @@ favicon_mstilecolor = "#2b5797"
 ### END: Structured Data ###
 
 ### BGN: Theme Settings ###
-  message = "<bdi lang='tl-Tglg' class='font-baybayin-noto'>ᜋᜊᜓᜑᜌ᜔᜶</bdi> Welcome to my hub. These are my official links/profiles in cyberspace. <bdi lang='hbo-Hebr' class='font-noto-sans-hebrew'>𐤔𐤋𐤅𐤌 𐤏𐤋𐤉𐤊𐤌</bdi>"
+  message = "<bdi lang='tl-Tglg' class='font-baybayin-noto'>ᜋᜊᜓᜑᜌ᜔᜶</bdi> Welcome to my hub. These are my official links/profiles in cyberspace. <bdi lang='hbo-Hebr' class='font-hebrew-sans-noto'>𐤔𐤋𐤅𐤌 𐤏𐤋𐤉𐤊𐤌</bdi>"
   hideAutoMenu = false
 
   # Pagination options
