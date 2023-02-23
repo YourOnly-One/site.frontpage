@@ -48,7 +48,11 @@
   {{ end }}
   <title class="p-name">{{ .Site.Title }}</title>
 
-  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" | resources.PostProcess }}
+  {{- /* BUG:
+    YourOnlyOne: resources.PostProcess is failing, removed temporarily as we don't have time to work on it.
+    {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" | resources.PostProcess }}
+  */ -}}
+  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" type="text/css" />
 
   {{- /* NOTE: Moved theme's inline style to a file */ -}}
