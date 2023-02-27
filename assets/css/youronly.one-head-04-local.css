@@ -1,60 +1,60 @@
 @media (min-width: 640px) {
   .sm\:font-sans {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-sans-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .sm\:font-serif {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .sm\:font-mono {
-    font-family: var(--font-mono-yelosan, monospace);
+    font-family: var(--font-mono-noto, monospace);
   }
 }
 
 @media (min-width: 768px) {
   .md\:font-sans {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-sans-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .md\:font-serif {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .md\:font-mono {
-    font-family: var(--font-mono-yelosan, monospace);
+    font-family: var(--font-mono-noto, monospace);
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:font-sans {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-sans-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .lg\:font-serif {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .lg\:font-mono {
-    font-family: var(--font-mono-yelosan, monospace);
+    font-family: var(--font-mono-noto, monospace);
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:font-sans {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-sans-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .xl\:font-serif {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .xl\:font-mono {
-    font-family: var(--font-mono-yelosan, monospace);
+    font-family: var(--font-mono-noto, monospace);
   }
 }
 
 @media (min-width: 1536px) {
   .\32xl\:font-sans {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-sans-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .\32xl\:font-serif {
-    font-family: var(--font-sans-yelosan, var(--font-hebrew-sans-yelosan, var(--font-baybayin-yelosan, sans-serif)));
+    font-family: var(--font-sans-noto, var(--font-hebrew-sans-noto, var(--font-baybayin-sans-noto, sans-serif)));
   }
   .\32xl\:font-mono {
-    font-family: var(--font-mono-yelosan, monospace);
+    font-family: var(--font-mono-noto, monospace);
   }
 }
 
