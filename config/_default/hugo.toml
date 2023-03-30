@@ -22,7 +22,7 @@
 
 
 ####### BACKEND #######
-  canonifyURLs = true                                      # default: false; marked for removeal; true for our use-case
+  #canonifyURLs = true                                      # default: false; marked for removeal; true for our use-case
 
   disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
   enableMissingTranslationPlaceholders = true              # default: false
