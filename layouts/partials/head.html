@@ -32,7 +32,7 @@
   <!-- END: All sitemap and feed links -->
 
   <!-- BGN: Return to main page -->
-    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ .Site.BaseURL }}'" />{{ end }}
+    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ site.BaseURL | relLangURL }}'" />{{ end }}
   <!-- END: Return to main page -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
