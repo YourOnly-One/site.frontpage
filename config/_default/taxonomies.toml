@@ -1,4 +1,2 @@
-channel = "channels"
-category = "categories"
-series = "series"
-tag = "tags"
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

@@ -1,18 +1,2 @@
-# See: https://gohugo.io/getting-started/configuration/#configure-dates
-
-# Yelosan Publishing definitions
-#
-# date: first date when the work was written
-#   - as per Copyright laws, the first time a work is penned is the date of Copyright, this include pre-publication
-#   - publishdate comes first (see below) as it will affect the following:
-#     - permalink date
-#     - position of article (majority of themes were designed for 'date' and not 'publishdate')
-# publishdate: first date of publication
-# lastmod: latest significant update
-#   - do not change for minor updates, the article and/or site might get flagged by search engines
-# expirydate: when the article is no longer relevant
-
-date = ["publishdate", "date", "lastmod"]                             # :default = ["date", "publishDate", "lastmod"]
-expirydate = ["expirydate"]                                           # :default = ["expiryDate"]
-lastmod = ["lastmod", ":git", ":fileModTime", "publishdate", "date"]  # :default = [":git", "lastmod", "date", "publishDate"]
-publishdate = ["publishdate", "date"]                                 # :default = ["publishDate", "date"]
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

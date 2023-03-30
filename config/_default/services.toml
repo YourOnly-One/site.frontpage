@@ -1,6 +1,2 @@
-[instagram]
-  AccessToken = "183794425326191|5734e2f164e94e3247f0f1499061c7b7"
-  disableInlineCSS = true
-
-[twitter]
-  disableInlineCSS = true
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

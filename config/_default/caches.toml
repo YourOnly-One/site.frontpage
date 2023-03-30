@@ -1,20 +1,2 @@
-# See: https://gohugo.io/getting-started/configuration/#configure-file-caches
-
-[assets]
-  dir = ":resourceDir/_gen"
-  maxAge = -1
-[getcsv]
-  dir = ":cacheDir/:project"
-  maxAge = -1
-[getjson]
-  dir = ":cacheDir/:project"
-  maxAge = -1
-[getresource]
-  dir = ':cacheDir/:project'
-  maxAge = -1
-[images]
-  dir = ":resourceDir/_gen"
-  maxAge = -1
-[modules]
-  dir = ":cacheDir/modules"
-  maxAge = -1
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

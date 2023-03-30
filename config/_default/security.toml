@@ -1,14 +1,2 @@
-# See: https://gohugo.io/about/security-model/
-
-enableInlineShortcodes = false              # disabled for security reasons as per Hugo documentation
-
-[exec]
-  allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$']
-  osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
-
-[funcs]
-  getenv = ['^HUGO_']
-
-[http]
-  methods = ['(?i)GET|POST']
-  urls = ['.*']
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

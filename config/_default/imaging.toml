@@ -1,13 +1,2 @@
-# See: https://gohugo.io/content-management/image-processing/
-
-anchor = "Smart"                                  # default: Smart
-bgColor = "#ffffff"                               # default: #ffffff; if transparency is not supported
-hint = "photo"                                    # default: photo; WebP
-quality = 50                                      # default: 75; JPEG and WebP
-resampleFilter = "MitchellNetravali"              # default: Box
-
-[exif]
-  disableDate = false                             # default: false
-  disableLatLong = false                          # default: false
-  excludeFields = ""                              # default: ""; performance and cache size
-  includeFields = ""                              # default: ""; performance and cache size
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

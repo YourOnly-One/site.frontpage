@@ -1,26 +1,7 @@
-# See: https://gohugo.io/content-management/multilingual/#configure-languages
-
-#[en]
-  #languageName = "English"
-  #languageCode = "en"
-  #languageCodeCountry = "xx"              # custom
-  #languageFlag = "🇬🇧"                     # custom
-  #timeZone = "Etc/UTC"
-  #tzOffset = "12h"                        # custom
-  #tzAbbr = "UTC"                          # custom
-  #tzAbbrTitle = ""                        # custom
-  #weight = 110
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"
 
 [en-ph]
-  languageName = "English (PH)"
-  languageCode = "en-PH"
-  languageCodeCountry = "ph"              # custom
-  languageFlag = "🇵🇭"                     # custom
-  timeZone = "Asia/Manila"
-  tzOffset = "8h"                        # custom
-  tzAbbr = "ACT"                          # custom
-  tzAbbrTitle = "Asean Common Time"                        # custom
-  weight = 111
   #[[en-ph.menu.main]]
     #name = "Home"
     #url = "https://im.youronly.one"
