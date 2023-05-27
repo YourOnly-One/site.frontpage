@@ -15,7 +15,7 @@
 
 
 ####### LANGUAGE #######
-  languageCode = "en-PH"
+  languageCode = "en-ph"
   defaultContentLanguage = "en-ph"                             # default: en
   hasCJKLanguage = true                                    # default: false
   disableLanguages = ["en", "fil", "tl-tglg", "zh-hant", "zh-hans", "ja", "ko"]
