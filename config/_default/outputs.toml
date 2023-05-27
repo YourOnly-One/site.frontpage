@@ -1,4 +1,4 @@
 # See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
 _merge = "deep"
 
-home = ["HTML"]
+home = ["HTML", "JSON"]
