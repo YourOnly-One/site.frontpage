@@ -1,6 +1,6 @@
 module gitlab.com/youronlyone/site.frontpage
 
-go 1.20.4
+go 1.20
 
 require (
   codeberg.org/yelosan/hugo-feeds main
