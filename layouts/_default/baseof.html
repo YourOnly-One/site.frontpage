@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {{/* Multilang support for lang attribute */}}
-<html class="dark:bg-gray-900" lang="{{ or (.Site.LanguageCode) (.Site.Language.Lang) }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}" class="h-feed">
+<html class="dark:bg-gray-900" lang="{{ site.Language.LanguageCode }}" dir="{{ site.Language.LanguageDirection }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}" class="h-feed">
     {{- partial "head.html" . -}}
     <body class="dark:bg-gray-900 min-h-screen">
         <!-- BGN: YourOnly.One Body-01-Top -->
