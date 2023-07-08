@@ -11,7 +11,7 @@
   paginate = 100                                             # default: 10
   rssLimit = 25                                             # default: -1
   summaryLength = 240                                        # default: 70
-  titleCaseStyle = "Chicago"                                     # default: AP
+  titleCaseStyle = "firstupper"                                     # default: AP; our choice: firstupper; backup: Chicago
 
 
 ####### LANGUAGE #######
