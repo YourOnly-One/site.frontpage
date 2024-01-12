@@ -91,7 +91,6 @@
     </span>
   </div>
 </footer>
-{{ template "_internal/google_analytics_async.html" . }}
 
 <script>
   const allTypes = ["all",  {{ range .Site.Sections }}"{{lower .Title}}",{{ end }}];
