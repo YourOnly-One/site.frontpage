@@ -22,8 +22,8 @@
     <span
       class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
     >
-    {{ with site.Social.facebook }}
-      <a class="text-gray-500" href="https://facebook.com/{{ . }}">
+    {{ with site.Params.social.facebook }}
+      <a class="text-gray-500" href="https://www.facebook.com/{{ . }}">
         <svg
           fill="currentColor"
           stroke-linecap="round"
@@ -37,7 +37,7 @@
           ></path>
         </svg>
       </a>
-      {{ end }} {{ with .Site.Social.twitter }}
+      {{ end }} {{ with .Site.Params.social.twitter }}
       <a class="ml-3 text-gray-500" href="https://twitter.com/{{ . }}">
         <svg
           fill="currentColor"
@@ -52,8 +52,8 @@
           ></path>
         </svg>
       </a>
-      {{ end }} {{ with .Site.Social.instagram }}
-      <a class="ml-3 text-gray-500" href="https://instagram.com/{{ . }}">
+      {{ end }} {{ with .Site.Params.social.instagram }}
+      <a class="ml-3 text-gray-500" href="https://www.instagram.com/{{ . }}">
         <svg
           fill="none"
           stroke="currentColor"
@@ -69,8 +69,8 @@
           ></path>
         </svg>
       </a>
-      {{ end }} {{ with .Site.Social.linkedin }}
-      <a class="ml-3 text-gray-500" href="https://linkedin.com/in/{{ . }}">
+      {{ end }} {{ with .Site.Params.social.linkedin }}
+      <a class="ml-3 text-gray-500" href="https://www.linkedin.com/in/{{ . }}">
         <svg
           fill="currentColor"
           stroke="currentColor"
