@@ -1,14 +1,14 @@
 module gitlab.com/youronlyone/site.frontpage
 
-go 1.20
+go 1.21
 
 require (
-  codeberg.org/yelosan/hugo-feeds main
-  codeberg.org/yelosan/hugo-shortcodes main
-  codeberg.org/yelosan/hugo-semantic-web main
-  gitlab.com/youronlyone/images main
-  codeberg.org/youronlyone/content main
-  codeberg.org/yelosan/hugo-globals main
-  codeberg.org/youronlyone/defaults main
-  github.com/techmagus/hugo-theme-showcase main
+  codeberg.org/yelosan/hugo-feeds latest
+  codeberg.org/yelosan/hugo-shortcodes latest
+  codeberg.org/yelosan/hugo-semantic-web latest
+  gitlab.com/youronlyone/images latest
+  codeberg.org/youronlyone/content latest
+  codeberg.org/yelosan/hugo-globals latest
+  codeberg.org/youronlyone/defaults latest
+  github.com/techmagus/hugo-theme-showcase latest
 )
