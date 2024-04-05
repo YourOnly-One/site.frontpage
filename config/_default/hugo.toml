@@ -2,7 +2,7 @@
 
 ####### BASE CONFIG #######
   baseURL = "https://im.youronly.one/"                                              # .Site.BaseURL
-  title = "♾️ 🐬 I'M YourOnly.One 🔏"                                                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards; RDFa, Microdata, JSON-LD
+  title = "I'M YourOnly.One"                                                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards; RDFa, Microdata, JSON-LD
   copyright = ""                                            # .Site.Copyright; leave empty to override theme
   timeZone = "Etc/UTC"
 

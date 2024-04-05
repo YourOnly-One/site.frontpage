@@ -1,9 +1,9 @@
 {{- $androidchrome192png := resources.Get "favicon/android-chrome-192x192.png" | resources.Fingerprint "sha384" -}}
 {{- $androidchrome512png := resources.Get "favicon/android-chrome-512x512.png" | resources.Fingerprint "sha384" -}}
 {
-  "name": "♾️ 🐬 I'M YourOnly.One 🔏",
-  "short_name": "♾️ YourOnly.One 🔏",
-  "description": "♾️ 🐬 I'M YourOnly.One 🔏 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukiya Sese Cuneta.",
+  "name": "I'M YourOnly.One",
+  "short_name": "YourOnly.One",
+  "description": "I'M YourOnly.One by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukiya Sese Cuneta.",
   "id": "/",
   "dir": "auto",
   "lang": "en-PH",
