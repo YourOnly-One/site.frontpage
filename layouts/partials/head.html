@@ -6,45 +6,46 @@
   <!-- END: YourOnly.One Head-01-Top -->
 
   <!-- BGN: All sitemap and feed links -->
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap.index.xml" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-multilang.xml" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-general.xml" />
+    <link rel="sitemap" type="application/xml" href="https://youronly.one/sitemap-index.xml">
+    <link rel="sitemap" type="application/xml" href="https://youronly.one/sitemap.xml">
 
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ko/feed.xml" hreflang="ko" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ja/feed.xml" hreflang="ja" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/feed.xml" hreflang="en-PH" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ko/sitemap.xml" hreflang="ko" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ja/sitemap.xml" hreflang="ja" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/sitemap.xml" hreflang="en-PH" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ko/index.json" hreflang="ko" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ja/index.json" hreflang="ja" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/index.json" hreflang="en-PH" />
+    <link rel="alternate" type="application/atom+xml" href="https://youronly.one/yuki/feed.xml" hreflang="en-PH">
+    <link rel="alternate" type="application/atom+xml" href="https://youronly.one/yuki/ko/feed.xml" hreflang="ko">
+    <link rel="alternate" type="application/atom+xml" href="https://youronly.one/yuki/ja/feed.xml" hreflang="ja">
 
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ko/feed.xml" hreflang="ko" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ja/feed.xml" hreflang="ja" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/feed.xml" hreflang="en-PH" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ko/sitemap.xml" hreflang="ko" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ja/sitemap.xml" hreflang="ja" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/sitemap.xml" hreflang="en-PH" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ko/index.json" hreflang="ko" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ja/index.json" hreflang="ja" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/index.json" hreflang="en-PH" />
+    <link rel="sitemap" type="application/xml" href="https://youronly.one/yuki/sitemap.xml" hreflang="en-PH">
+    <link rel="sitemap" type="application/xml" href="https://youronly.one/yuki/ko/sitemap.xml" hreflang="ko">
+    <link rel="sitemap" type="application/xml" href="https://youronly.one/yuki/ja/sitemap.xml" hreflang="ja">
+
+    <link rel="alternate" type="application/json" href="https://youronly.one/yuki/index.json" hreflang="en-PH">
+    <link rel="alternate" type="application/json" href="https://youronly.one/yuki/ko/index.json" hreflang="ko">
+    <link rel="alternate" type="application/json" href="https://youronly.one/yuki/ja/index.json" hreflang="ja">
+
+    {{- /*
+      <link rel="alternate" type="application/atom+xml" href="https://youronly.one/snoworld/feed.xml" hreflang="en-PH">
+      <link rel="alternate" type="application/atom+xml" href="https://youronly.one/snoworld/ko/feed.xml" hreflang="ko">
+      <link rel="alternate" type="application/atom+xml" href="https://youronly.one/snoworld/ja/feed.xml" hreflang="ja">
+
+      <link rel="sitemap" type="application/xml" href="https://youronly.one/snoworld/sitemap.xml" hreflang="en-PH">
+      <link rel="sitemap" type="application/xml" href="https://youronly.one/snoworld/ko/sitemap.xml" hreflang="ko">
+      <link rel="sitemap" type="application/xml" href="https://youronly.one/snoworld/ja/sitemap.xml" hreflang="ja">
+
+      <link rel="alternate" type="application/json" href="https://youronly.one/snoworld/index.json" hreflang="en-PH">
+      <link rel="alternate" type="application/json" href="https://youronly.one/snoworld/ko/index.json" hreflang="ko">
+      <link rel="alternate" type="application/json" href="https://youronly.one/snoworld/ja/index.json" hreflang="ja">
+    */}}
   <!-- END: All sitemap and feed links -->
 
   <!-- BGN: Return to main page -->
-    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ site.BaseURL | relLangURL }}'" />{{ end }}
+    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ site.BaseURL | relLangURL }}'">{{ end }}
   <!-- END: Return to main page -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {{ if .Site.Params.Author }}
-  <meta name="author" content="{{ .Site.Params.Author }}" />
+    <meta name="author" content="{{ .Site.Params.Author }}">
   {{ end }}
   {{ if .Site.Params.Description }}
-  <meta
-    name="description"
-    content="{{ .Site.Params.Description }}"
-    class="p-summary"
-  />
+    <meta name="description" content="{{ .Site.Params.Description }}" class="p-summary">
   {{ end }}
   <title class="p-name">{{ .Site.Title }}</title>
 
@@ -53,11 +54,11 @@
     {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" | resources.PostProcess }}
   */ -}}
   {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | minify | fingerprint "sha512" }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" type="text/css" />
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" type="text/css">
 
   {{- /* NOTE: Moved theme's inline style to a file */ -}}
   {{ with resources.Get "css/theme.css" | minify | fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" media="all" type="{{ .MediaType }}" />
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" media="all" type="{{ .MediaType }}">
   {{ end }}
 
   <!-- BGN: YourOnly.One Head-02-Bottom -->
