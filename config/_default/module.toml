@@ -9,6 +9,9 @@ workspace = "off"
   path = "codeberg.org/yelosan/hugo-feeds"
 
 [[imports]]
+  path = "codeberg.org/yelosan/hugo-syndication"
+
+[[imports]]
   path = "codeberg.org/yelosan/hugo-shortcodes"
 
 [[imports]]
