@@ -32,22 +32,10 @@ workspace = "off"
   ignoreImports = true
   path = "codeberg.org/youronlyone/content"
   # BGN: /frontpage/ content
-    #[[imports.mounts]]
-    #  source = "content/frontpage/en-ph"
-    #  target = "content"
-    #  lang = "en"
     [[imports.mounts]]
-      source = "content/frontpage/en-ph"
+      source = "content/frontpage"
       target = "content"
-      lang = "en-ph"
-    #[[imports.mounts]]
-    #  source = "content/frontpage/ja"
-    #  target = "content"
-    #  lang = "ja"
-    #[[imports.mounts]]
-    #  source = "content/frontpage/ko"
-    #  target = "content"
-    #  lang = "ko"
+      #lang = "en"
   # END: /frontpage/ content
 
 [[imports]]
@@ -58,7 +46,6 @@ workspace = "off"
 
 [[imports]]
   ignoreConfig = true
-  ignoreImports = false
   path = "github.com/techmagus/hugo-theme-showcase"
 
 
@@ -73,22 +60,9 @@ workspace = "off"
     source = "assets"
     target = "assets"
 
-  #[[mounts]]
-  #  source = "content/en-ph"
-  #  target = "content"
-  #  lang = "en"                                        # when in multihost / multilang mode
   [[mounts]]
-    source = "content/en-ph"
+    source = "content"
     target = "content"
-    lang = "en-ph"                                      # when in multihost / multilang mode
-  [[mounts]]
-    source = "content/ja"
-    target = "content"
-    lang = "ja"                                         # when in multihost / multilang mode
-  [[mounts]]
-    source = "content/ko"
-    target = "content"
-    lang = "ko"                                         # when in multihost / multilang mode
 
   [[mounts]]
     source = "data"
@@ -102,19 +76,6 @@ workspace = "off"
     source = "layouts"
     target = "layouts"
 
-  #[[mounts]]
-  #  source = "static/en-ph"
-  #  target = "static"
-  #  lang = "en"                                        # when in multihost / multilang mode
   [[mounts]]
-    source = "static/en-ph"
+    source = "static"
     target = "static"
-    lang = "en-ph"                                      # when in multihost / multilang mode
-  [[mounts]]
-    source = "static/ja"
-    target = "static"
-    lang = "ja"                                         # when in multihost / multilang mode
-  [[mounts]]
-    source = "static/ko"
-    target = "static"
-    lang = "ko"                                         # when in multihost / multilang mode
