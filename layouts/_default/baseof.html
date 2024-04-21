@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 {{/* Multilang support for lang attribute */}}
-<html class="dark:bg-gray-900" lang="{{ site.Language.LanguageCode }}" dir="{{ site.Language.LanguageDirection }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}" class="h-feed">
+<html class="h-feed no-js dark:bg-gray-900" lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ site.Language.LanguageDirection }}" prefix="schema: http://schema.org/ v: http://rdf.data-vocabulary.org/# vcard: http://www.w3.org/2006/vcard/ns# foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }} cc: http://creativecommons.org/ns#">
     {{- partial "head.html" . -}}
     <body class="dark:bg-gray-900 min-h-screen">
         <!-- BGN: YourOnly.One Body-01-Top -->
