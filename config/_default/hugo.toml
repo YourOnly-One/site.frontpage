@@ -18,8 +18,8 @@
   languageCode = "en-ph"
   defaultContentLanguage = "en-ph"                             # default: en
   hasCJKLanguage = true                                    # default: false
-  # Our LANG: 'en', 'en-ph', 'fil', 'fil-hang', 'fil-jamo', 'tl-tglg', 'zh-hant', 'zh-hans', 'ja', 'ko'
-  disableLanguages = ['en', 'fil', 'fil-hang', 'fil-jamo', 'tl-tglg', 'zh-hant', 'zh-hans', 'ja', 'ko']
+  # Our LANG: 'en', 'en-ph', 'fil', 'fil-hang', 'tl-tglg', 'zh-hant', 'zh-hans', 'zh-bopo', 'ja', 'ko'
+  disableLanguages = ['en', 'fil', 'fil-hang', 'tl-tglg', 'zh-hant', 'zh-hans', 'zh-bopo', 'ja', 'ko']
 
 
 ####### BACKEND #######
