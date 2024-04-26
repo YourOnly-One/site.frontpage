@@ -27,7 +27,7 @@
   disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
   enableMissingTranslationPlaceholders = true              # default: false
   pluralizeListTitles = false                                # default: true
-  #timeout = "30s"                                           # default: 30s
+  timeout = "70s"                                           # default: 30s
 
 
 #######  #######  #######  #######  #######  #######  #######  #######
