@@ -21,6 +21,102 @@ favicon_mstilecolor = "#2b5797"
   darkMode = true
 ### END: Theme Settings ###
 
+### BGN: Hugo module settings ###
+  ##### BGN: syndication #####
+    ## Custom entries only work if placed in per-site params.toml ##
+    [[sns]]
+      url = 'blogspot.com'
+      icon = 'blogspot.svg'
+    [[sns]]
+      url = 'bsky.app'
+      icon = 'bluesky.svg'
+    [[sns]]
+      url = 'c.im'
+      icon = 'mastodon.png'
+    [[sns]]
+      url = 'c.wtf'
+      icon = 'rebased.svg'
+    [[sns]]
+      url = 'catodon.social'
+      icon = 'catodon.png'
+    [[sns]]
+      url = 'diasp.org'
+      icon = 'diaspora.svg'
+    [[sns]]
+      url = 'ebin.club'
+      icon = 'fediverse.svg'
+    [[sns]]
+      url = 'facebook.com'
+      icon = 'facebook.svg'
+    [[sns]]
+      url = 'fb.com'
+      icon = 'facebook.svg'
+    [[sns]]
+      url = 'fedia.io'
+      icon = 'mbin.svg'
+    [[sns]]
+      url = 'fedia.social'
+      icon = 'iceshrimp.png'
+    [[sns]]
+      url = 'instagram.com'
+      icon = 'instagram.svg'
+    [[sns]]
+      url = 'mastodon.online'
+      icon = 'mastodon.png'
+    [[sns]]
+      url = 'mastodon.social'
+      icon = 'mastodon.png'
+    [[sns]]
+      url = 'naver.com'
+      icon = 'naver.png'
+    [[sns]]
+      url = 'p.lu'
+      icon = 'peertube.svg'
+    [[sns]]
+      url = 'pixelfed.social'
+      icon = 'pixelfed.svg'
+    [[sns]]
+      url = 'plurk.com'
+      icon = 'plurk.svg'
+    [[sns]]
+      url = 'reddit.com'
+      icon = 'reddit.svg'
+    [[sns]]
+      url = 'socialhome.network'
+      icon = 'socialhome-black.svg'
+    [[sns]]
+      url = 'spoutible.com'
+      icon = 'spoutible.png'
+    [[sns]]
+      url = 'threads.net'
+      icon = 'threads.svg'
+    [[sns]]
+      url = 'tumblr.com'
+      icon = 'tumblr.svg'
+    [[sns]]
+      url = 'twitter.com'
+      icon = 'twitter.svg'
+    [[sns]]
+      url = 'wordpress.com'
+      icon = 'wordpress.svg'
+    [[sns]]
+      url = 'write.as'
+      icon = 'writefreely.png'
+    [[sns]]
+      url = 'x.com'
+      icon = 'x.svg'
+    [[sns]]
+      url = 'youtube.com'
+      icon = 'youtube.svg'
+    [[sns]]
+      url = 'is.youronly.one'
+      icon = 'bluesky.svg'
+    [[sns]]
+      url = 't.youronly.one'
+      icon = 'tumblr.svg'
+  ##### END: syndication #####
+### END: Hugo module settings ###
+
 ### BGN: Other Settings ###
   [semweb]
     datecreated = "2021-02-06"
